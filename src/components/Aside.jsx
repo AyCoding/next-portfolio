@@ -1,9 +1,9 @@
-import ButtonLink from "@/components/ButtonLink.jsx";
+import ButtonLink from "@/components/ButtonLink";
 
 export default function Aside() {
     const Links = [
         {id: 0, name: "Home", slug: ""},
-        {id: 1, name: "About", slug: "discover"},
+        {id: 1, name: "About", slug: "about"},
         {id: 2, name: "Projects", slug: "project"},
         {id: 3, name: "Skills", slug: "skills"},
         {id: 4, name: "Stats", slug: "stats"},
