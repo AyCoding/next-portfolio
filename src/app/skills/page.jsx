@@ -34,8 +34,8 @@ export default function Skills() {
 
             <section>
                 <div>
-                    <div className="mt-5">
-                        <h1 className="text-2xl font-bold mb-2 uppercase">Technologies</h1>
+                    <div className="mt-5 border-t border-slate-700 my-10">
+                        <h1 className="text-4xl font-bold uppercase perso my-5">Technologies</h1>
                         <div className="flex gap-5">
                             {TECH.map(tech => (
                                 <div key={tech.id} className="flex flex-col justify-center items-center">
@@ -51,8 +51,8 @@ export default function Skills() {
                         </div>
                     </div>
 
-                    <div className="mt-5">
-                        <h1 className="text-2xl font-bold mb-2 uppercase">Langages</h1>
+                    <div className="mt-5 border-t border-slate-700 my-10">
+                        <h1 className="text-4xl font-bold uppercase perso my-5">Langages</h1>
                         <div className="flex gap-5">
                             {LANGAGES.map(langage => (
                                 <div key={langage.id} className="flex flex-col justify-center items-center">
@@ -68,8 +68,8 @@ export default function Skills() {
                         </div>
                     </div>
 
-                    <div className="mt-5">
-                        <h1 className="text-2xl font-bold mb-2 uppercase">IDE</h1>
+                    <div className="mt-5 border-t border-slate-700 my-10">
+                        <h1 className="text-4xl font-bold uppercase perso my-5">IDE</h1>
                         <div className="flex gap-5">
                             {IDE.map(ide => (
                                 <div key={ide.id} className="flex flex-col justify-center items-center">
