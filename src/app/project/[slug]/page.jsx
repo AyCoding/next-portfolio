@@ -1,9 +1,11 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: 'Aymeric DE LANGE - Project',
+    description: 'Discover my projects',
+}
+
 export default function ProjectSlug({ params }) {
-
-    // TODO : Erreur au rechargement de la page, rien ne reste. Uniquement lors du premier passage que tout fonctionne.
-
     const PROJECTS = [
         {
             id: 1,

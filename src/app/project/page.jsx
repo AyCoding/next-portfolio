@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from 'next/link'
 
+export const metadata = {
+    title: 'Aymeric DE LANGE - Project',
+    description: 'Discover my projects',
+}
+
 export default function Project() {
 
     const PROJECTS = [

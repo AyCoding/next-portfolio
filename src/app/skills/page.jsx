@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: 'Aymeric DE LANGE - Skills',
+    description: 'Discover my skills',
+}
+
 export default function Skills() {
     const TECH = [
         {id: 0, path: "/Logo/LogosGitIcon.svg", alt: "Git"},

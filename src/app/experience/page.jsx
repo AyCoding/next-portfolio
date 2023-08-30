@@ -1,6 +1,11 @@
 import Link from "next/link";
 import {ExternalLink} from "lucide-react";
 
+export const metadata = {
+    title: 'Aymeric DE LANGE - Experience',
+    description: 'Discover my experience of work and other',
+}
+
 export default function Experience() {
     return (
         <div className="container mx-auto">
@@ -23,8 +28,10 @@ export default function Experience() {
 
 
                 <div className="flex">
-                    <p className="font-light">Pendant mon stage d&apos;un mois lors de ma première année en BTS SIO SLAM, j&apos;ai eu l&apos;opportunité de contribuer à la conception et à la refonte du site web de l&apos;Institut de Médecine du Sport de Troyes.</p>
-                    {/*<Link href={"https://canaud-emilie-sage-femme.fr/"}*/}
+                    <p className="font-light">Pendant mon stage d&apos;un mois lors de ma première année en BTS SIO
+                        SLAM, j&apos;ai eu l&apos;opportunité de contribuer à la conception et à la refonte du site web
+                        de l&apos;Institut de Médecine du Sport de Troyes.</p>
+                    {/*<Link href={"URL"}*/}
                     {/*      target="_blank" rel="noreferrer"*/}
                     {/*      className="flex gap-1 items-center font-medium hover:text-gray-700 transition-all">*/}
                     {/*    <ExternalLink/>*/}

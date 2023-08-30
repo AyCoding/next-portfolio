@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata = {
+    title: 'Aymeric DE LANGE - Skills',
+    description: 'Discover my stats of coding',
+}
+
 export default function Stats() {
     return (
         <div className="container mx-auto">
@@ -20,7 +25,8 @@ export default function Stats() {
 
             <div>
 
-                <iframe src="https://github-readme-stats.vercel.app/api/wakatime?username=AyCoding&layout=compact" frameborder="0" className="w-full h-[80vh]"></iframe>
+                <iframe src="https://github-readme-stats.vercel.app/api/wakatime?username=AyCoding&layout=compact"
+                        frameborder="0" className="w-full h-[80vh]"></iframe>
             </div>
         </div>
     )
