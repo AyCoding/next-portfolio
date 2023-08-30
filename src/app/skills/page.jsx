@@ -29,11 +29,11 @@ export default function Skills() {
     ]
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-2">
             <p className="text-5xl font-black py-6">Skills</p>
 
             <section>
-                <div>
+                <div>N
                     <div className="mt-5 border-t border-slate-700 my-10">
                         <h1 className="text-4xl font-bold uppercase perso my-5">Technologies</h1>
                         <div className="flex gap-5">

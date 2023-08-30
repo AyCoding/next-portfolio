@@ -28,7 +28,7 @@ export default function Project() {
     ]
     return (
         <>
-            <div className="flex flex-col gap-10 container mx-auto pb-[40px]">
+            <div className="flex flex-col gap-10 container mx-auto pb-[40px] px-2">
                 <h1 className="text-5xl font-black py-6">
                     Discover my projects
                 </h1>

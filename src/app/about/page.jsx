@@ -13,7 +13,7 @@ export default function About() {
     ]
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-2">
             <p className="text-5xl font-black py-6">Discover me</p>
 
             <section className="w-full h-52 py-5 md:rounded-3xl">

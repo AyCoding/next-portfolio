@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Stats() {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-2">
             <h1 className="text-5xl font-black py-6">Mes Statistiques</h1>
             <div>
                 <h4 className="text-xl mb-1 font-bold">Mon temps de code depuis :</h4>
