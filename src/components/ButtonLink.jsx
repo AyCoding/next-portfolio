@@ -20,7 +20,7 @@ export default function ButtonLink({name, slug}) {
         )
     } else {
         return (
-            <Link href={`/${slug}`} className="flex flex-col items-center transition-all py-[0.5rem] px-[1rem] uppercase font-black bg-stone-800 text-white rounded-full text-xs">
+            <Link href={`/${slug}`} className="flex flex-col items-center transition-all py-[0.5rem] px-[1rem] uppercase font-black bg-stone-800 text-white hover:bg-white hover:text-stone-800 rounded-full text-xs">
                 <span className="text-center">{name}</span>
             </Link>
         )
