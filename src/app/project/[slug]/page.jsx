@@ -31,7 +31,7 @@ export default function ProjectSlug({ params }) {
     const project = PROJECTS.find(project => project.slug === params.slug)
 
     return (
-        <div className="container mx-auto pb-[40px] px-2">
+        <div className="container mx-auto pb-[40px] px-5 md:px-2">
             {/*{params.slug}*/}
             <h1 className="text-5xl font-black py-6">
                 {project.name}

@@ -7,12 +7,13 @@ export const metadata = {
 }
 
 export default function Experience() {
+
     return (
-        <div className="container mx-auto px-2">
+        <div className="container mx-auto px-5 md:px-2">
             <h1 className="text-5xl font-black py-6">My experiences</h1>
 
-            <div className="border-t border-slate-700 my-2 mb-10">
-                <div className="flex flex-col md:flex-row mt-2 mb-2">
+            <div className="border-t border-slate-700 my-10">
+                <div className="flex flex-col md:flex-row my-5">
                     <div className="md:flex-1">
                         <h2 className="text-xl font-bold w-full uppercase">
                             Institut de Médecine du Sport de Troyes
@@ -40,8 +41,8 @@ export default function Experience() {
                 </div>
             </div>
 
-            <div className="border-t border-slate-700 my-2 mb-10">
-                <div className="flex flex-col md:flex-row mt-2 mb-2">
+            <div className="border-t border-slate-700 my-10">
+                <div className="flex flex-col md:flex-row my-5">
                     <div className="md:flex-1">
                         <h2 className="text-xl font-bold w-full uppercase">
                             Webmaster Sage-femme

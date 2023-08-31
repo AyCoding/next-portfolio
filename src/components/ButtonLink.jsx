@@ -1,16 +1,15 @@
 "use client"
-
 import Link from "next/link";
-// import {useRouter} from "next/router";
+// import {useParams, useRouter} from "next/navigation";
+// import { usePathname } from 'next/navigation'
 
 // TODO : Verifier les params dans le lien pour modifier le CSS (True : BG WHITE ? BG BLACK & TEXT-WHITE)
 
 export default function ButtonLink({name, slug}) {
-
     // const router = useRouter();
+    // const pathname = usePathname()
+    // const isActive = slug === usePathname();
 
-    // Vérifiez si l'URL correspond au slug de ce bouton
-    // const isActive = router.pathname === `/${slug}`;
     const isActive = false
     if (isActive) {
         return (

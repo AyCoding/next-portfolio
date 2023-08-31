@@ -28,12 +28,17 @@ export default function Skills() {
 
     ]
 
+    const OTHER = [
+        {id:1, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
+        {id:2, path: "/Logo/LogosFigma.svg", alt: "Figma"}
+    ]
+
     return (
-        <div className="container mx-auto px-2">
+        <div className="container mx-auto px-5 md:px-2">
             <p className="text-5xl font-black py-6">Skills</p>
 
             <section>
-                <div>N
+                <div>
                     <div className="mt-5 border-t border-slate-700 my-10">
                         <h1 className="text-4xl font-bold uppercase perso my-5">Technologies</h1>
                         <div className="flex gap-5">
@@ -44,8 +49,9 @@ export default function Skills() {
                                         alt={tech.alt}
                                         width={40}
                                         height={40}
+                                        className={"h-[40px]"}
                                     />
-                                    <span>{tech.alt}</span>
+                                    <span className="font-medium mt-2">{tech.alt}</span>
                                 </div>
                             ))}
                         </div>
@@ -61,8 +67,9 @@ export default function Skills() {
                                         alt={langage.alt}
                                         width={40}
                                         height={40}
+                                        className={"h-[40px]"}
                                     />
-                                    <span>{langage.alt}</span>
+                                    <span className="font-medium mt-2">{langage.alt}</span>
                                 </div>
                             ))}
                         </div>
@@ -78,11 +85,30 @@ export default function Skills() {
                                         alt={ide.alt}
                                         width={40}
                                         height={40}
+                                        className={"h-[40px]"}
                                     />
-                                    <span>{ide.alt}</span>
+                                    <span className="font-medium mt-2">{ide.alt}</span>
                                 </div>
                             ))}
                         </div>
+                    </div>
+                </div>
+
+                <div className="mt-5 border-t border-slate-700 my-10">
+                    <h1 className="text-4xl font-bold uppercase perso my-5">Other</h1>
+                    <div className="flex gap-5">
+                        {OTHER.map(other => (
+                            <div key={other.id} className="flex flex-col justify-center items-center">
+                                <Image
+                                    src={other.path}
+                                    alt={other.alt}
+                                    width={40}
+                                    height={40}
+                                    className={"h-[40px]"}
+                                />
+                                <span className="font-medium mt-2">{other.alt}</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
 
