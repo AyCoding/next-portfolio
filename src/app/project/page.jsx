@@ -8,6 +8,7 @@ export const metadata = {
 }
 
 export default function Project() {
+    const reversedProjects = [...PROJECTS].reverse();
     return (
         <>
             <div className="flex flex-col gap-10 container mx-auto pb-[50px] px-5 md:px-2">
@@ -15,7 +16,7 @@ export default function Project() {
                     Discover my projects
                 </h1>
 
-                {PROJECTS.reverse().map(project => (
+                {reversedProjects.map(project => (
                     <div className="flex flex-col border-t border-slate-700 my-2 lg:flex-row overflow-hidden"
                          key={project.id}>
                         <div className="lg:max-h-80">
