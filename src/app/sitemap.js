@@ -14,7 +14,7 @@ export default function sitemap() {
             url: 'https://aymericdelange.fr/project',
             lastModified: new Date(),
         },
-        PROJECTS.map(project => ({
+        ...PROJECTS.map(project => ({
             url: `https://aymericdelange.fr/project/${project.slug}`,
             lastModified: new Date(),
         })),
