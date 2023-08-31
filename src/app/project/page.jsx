@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link'
+import {PROJECTS} from "@/data/data";
 
 export const metadata = {
     title: 'Aymeric DE LANGE - Project',
@@ -7,25 +8,6 @@ export const metadata = {
 }
 
 export default function Project() {
-
-    const PROJECTS = [
-        {
-            id: 1,
-            name: "Webmaster Sage-femme",
-            slug: "emilie-canaud-sage-femme",
-            img: "canaud-emilie-sage-femme.fr_.png",
-            alt: "Accueil de du site",
-            desc: "Création du site/design pour une sage-femme basé sur Troyes."
-        },
-        {
-            id: 2,
-            name: "Institut de Médecine du Sport",
-            slug: "institut-de-medecine-du-sport",
-            img: "accueil-ims.png",
-            alt: "Accueil de du site",
-            desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes."
-        }
-    ]
     return (
         <>
             <div className="flex flex-col gap-10 container mx-auto pb-[40px] px-5 md:px-2">
@@ -41,7 +23,7 @@ export default function Project() {
                             {/*     className="max-w-full lg:max-h-fit lg:max-w-2xl h-fit object-cover"/>*/}
                             {/*<Image src={`./${project.img}`} alt={project.img} className="max-w-full lg:max-h-fit lg:max-w-2xl h-fit object-cover"/>*/}
                             <Image
-                                src={`/${project.img}`}
+                                src={`/${project.cover}`}
                                 alt={project.alt}
                                 className="max-w-full lg:max-h-fit lg:max-w-2xl h-fit object-cover"
                                 width={1000}

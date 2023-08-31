@@ -7,17 +7,18 @@ export const metadata = {
 
 export default function Skills() {
     const TECH = [
-        {id: 0, path: "/Logo/LogosGitIcon.svg", alt: "Git"},
-        {id: 0, path: "/Logo/LogosVue.svg", alt: "Vue"},
-        {id: 0, path: "/Logo/LogosReact.svg", alt: "React"},
-        // {id: 0, path: "/Logo/LogosSvelteIcon.svg", alt: "Logo Svelte"},
+        {id: 1, path: "/Logo/LogosGitIcon.svg", alt: "Git"},
+        {id: 2, path: "/Logo/LogosVue.svg", alt: "Vue"},
+        {id: 3, path: "/Logo/LogosReact.svg", alt: "React"},
+        {id: 4, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
+        // {id: 100, path: "/Logo/LogosSvelteIcon.svg", alt: "Logo Svelte"},
     ]
 
     const LANGAGES = [
-        {id: 0, path: "/Logo/LogosPython.svg", alt: "Python"},
-        {id: 0, path: "/Logo/LogosSass.svg", alt: "Sass"},
-        {id: 0, path: "/Logo/LogosJavascript.svg", alt: "JavaScript"},
-        {id: 0, path: "/Logo/LogosPhp.svg", alt: "PHP"},
+        {id: 1, path: "/Logo/LogosPython.svg", alt: "Python"},
+        {id: 2, path: "/Logo/LogosSass.svg", alt: "Sass"},
+        {id: 3, path: "/Logo/LogosJavascript.svg", alt: "JavaScript"},
+        {id: 4, path: "/Logo/LogosPhp.svg", alt: "PHP"},
 
     ]
 
@@ -34,14 +35,14 @@ export default function Skills() {
     ]
 
     return (
-        <div className="container mx-auto px-5 md:px-2">
+        <div className="container mx-auto pb-[40px] px-5 md:px-2">
             <p className="text-5xl font-black py-6">Skills</p>
 
             <section>
                 <div>
                     <div className="mt-5 border-t border-slate-700 my-10">
                         <h1 className="text-4xl font-bold uppercase perso my-5">Technologies</h1>
-                        <div className="flex gap-5">
+                        <div className="flex flex-wrap gap-5">
                             {TECH.map(tech => (
                                 <div key={tech.id} className="flex flex-col justify-center items-center">
                                     <Image
@@ -59,7 +60,7 @@ export default function Skills() {
 
                     <div className="mt-5 border-t border-slate-700 my-10">
                         <h1 className="text-4xl font-bold uppercase perso my-5">Langages</h1>
-                        <div className="flex gap-5">
+                        <div className="flex flex-wrap gap-5">
                             {LANGAGES.map(langage => (
                                 <div key={langage.id} className="flex flex-col justify-center items-center">
                                     <Image
@@ -76,8 +77,8 @@ export default function Skills() {
                     </div>
 
                     <div className="mt-5 border-t border-slate-700 my-10">
-                        <h1 className="text-4xl font-bold uppercase perso my-5">IDE</h1>
-                        <div className="flex gap-5">
+                        <h1 className="text-4xl font-bold uppercase perso my-5">Editors</h1>
+                        <div className="flex flex-wrap gap-5">
                             {IDE.map(ide => (
                                 <div key={ide.id} className="flex flex-col justify-center items-center">
                                     <Image

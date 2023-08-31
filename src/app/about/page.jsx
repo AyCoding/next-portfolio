@@ -13,7 +13,7 @@ export default function About() {
     ]
 
     return (
-        <div className="container mx-auto px-5 md:px-2">
+        <div className="container mx-auto pb-[40px] px-5 md:px-2">
             <p className="text-5xl font-black py-6">Discover me</p>
 
             <section className="w-full h-52 py-5 md:rounded-3xl">
@@ -31,7 +31,7 @@ export default function About() {
                     {LINKS.map(link => (
                         <Link href={link.url}
                               target="_blank" rel="noreferrer"
-                              className="flex gap-1 items-center font-medium text-2xl hover:text-gray-700 transition-all"
+                              className="flex gap-1 items-center font-medium text-2xl hover:text-gray-700 hover:translate-x-1 transition-all"
                               key={link.id}
                         >
                             <ExternalLink/>
