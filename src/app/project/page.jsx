@@ -10,7 +10,7 @@ export const metadata = {
 export default function Project() {
     return (
         <>
-            <div className="flex flex-col gap-10 container mx-auto pb-[40px] px-5 md:px-2">
+            <div className="flex flex-col gap-10 container mx-auto pb-[50px] px-5 md:px-2">
                 <h1 className="text-5xl font-black py-6">
                     Discover my projects
                 </h1>
@@ -25,7 +25,7 @@ export default function Project() {
                             <Image
                                 src={`/${project.cover}`}
                                 alt={project.alt}
-                                className="max-w-full lg:max-h-fit lg:max-w-2xl h-fit object-cover"
+                                className="max-w-full max-h-[320px] lg:max-h-fit lg:max-w-2xl object-cover object-top"
                                 width={1000}
                                 height={1000}
                                 priority
