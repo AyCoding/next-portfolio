@@ -20,9 +20,6 @@ export default function Project() {
                     <div className="flex flex-col border-t border-slate-700 my-2 lg:flex-row overflow-hidden"
                          key={project.id}>
                         <div className="lg:max-h-80">
-                            {/*<img src={`./${project.img}`} alt=""*/}
-                            {/*     className="max-w-full lg:max-h-fit lg:max-w-2xl h-fit object-cover"/>*/}
-                            {/*<Image src={`./${project.img}`} alt={project.img} className="max-w-full lg:max-h-fit lg:max-w-2xl h-fit object-cover"/>*/}
                             <Image
                                 src={`/${project.cover}`}
                                 alt={project.alt}

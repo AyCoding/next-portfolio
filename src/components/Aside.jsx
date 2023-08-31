@@ -27,7 +27,7 @@ export default function Aside() {
         <div className="flex flex-col md:flex-row text-orange-500 justify-center items-center bg-stone-800 p-1 rounded-xl fixed bottom-4 mx-auto w-max left-1/2 translate-x-[-50%]">
 
             {nav && (
-                <div className="">
+                <div className="md:hidden">
                     {Links.map(linkItem => (
                         <ButtonLink name={linkItem.name} slug={linkItem.slug} key={linkItem.id}/>
                     ))}
