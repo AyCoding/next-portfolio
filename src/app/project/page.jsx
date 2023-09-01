@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from 'next/link'
 import {PROJECTS} from "@/data/data";
 
+
 export const metadata = {
     title: 'Aymeric DE LANGE - Project',
     description: 'Discover my projects',

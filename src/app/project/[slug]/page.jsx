@@ -3,9 +3,12 @@ import Link from "next/link";
 import {ExternalLink} from "lucide-react";
 import {PROJECTS} from "@/data/data";
 
-export const metadata = {
-    title: 'Aymeric DE LANGE - Project',
-    description: 'Discover my projects',
+export async function generateMetadata({params}) {
+    const project = PROJECTS.find(project => project.slug === params.slug)
+    return {
+        title: `Aymeric DE LANGE - ${project.name}`,
+        description: `${project.desc}`,
+    }
 }
 
 export default function ProjectSlug({params}) {

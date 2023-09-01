@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-    title: 'Aymeric DE LANGE - Skills',
+    title: 'Aymeric DE LANGE - Stats',
     description: 'Discover my stats of coding',
 }
 
