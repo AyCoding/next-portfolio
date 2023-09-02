@@ -4,8 +4,8 @@ import {PROJECTS} from "@/data/data";
 
 
 export const metadata = {
-    title: 'Aymeric DE LANGE - Project',
-    description: 'Discover my projects',
+    title: 'Aymeric DE LANGE - Projets',
+    description: 'Découvrez mes projets',
 }
 
 export default function Project() {
@@ -14,7 +14,7 @@ export default function Project() {
         <>
             <div className="flex flex-col gap-10 container mx-auto pb-[50px] px-5 md:px-2">
                 <h1 className="text-5xl font-black py-6">
-                    Discover my projects
+                    Découvrez mes projets
                 </h1>
 
                 {reversedProjects.map(project => (
@@ -41,7 +41,7 @@ export default function Project() {
                             </p>
                             <Link href={`/project/${project.slug}`}
                                   className="inline-block w-fit py-2 px-4 mt-5 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-500 hover:transition">
-                                See project
+                                Voir le projet
                             </Link>
                         </div>
                     </div>

@@ -5,9 +5,9 @@ import {AlignJustify} from "lucide-react";
 
 export default function Aside() {
     const Links = [
-        {id: 0, name: "Home", slug: ""},
+        {id: 0, name: "Accueil", slug: ""},
         {id: 1, name: "About", slug: "about"},
-        {id: 2, name: "Projects", slug: "project"},
+        {id: 2, name: "Projets", slug: "project"},
         {id: 3, name: "Skills", slug: "skills"},
         {id: 4, name: "Stats", slug: "stats"},
         {id: 5, name: "Experience", slug: "experience"}

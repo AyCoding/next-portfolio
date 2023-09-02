@@ -24,7 +24,7 @@ export default function ProjectSlug({params}) {
                 <Link href={`${project.url}`}
                       className="flex gap-1 items-center font-medium text-xl hover:text-gray-700 my-2 hover:translate-x-1 transition-all">
                     <ExternalLink/>
-                    Visit Website
+                    Visiter le site web
                 </Link>
             )}
             <div>

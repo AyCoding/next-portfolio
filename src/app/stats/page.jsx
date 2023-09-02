@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const metadata = {
     title: 'Aymeric DE LANGE - Stats',
-    description: 'Discover my stats of coding',
+    description: 'Découvrez mes statistiques de codage',
 }
 
 export default function Stats() {

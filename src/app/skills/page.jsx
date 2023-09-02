@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export const metadata = {
-    title: 'Aymeric DE LANGE - Skills',
-    description: 'Discover my skills',
+    title: 'Aymeric DE LANGE - Compétences',
+    description: 'Découvrir mes compétences',
 }
 
 export default function Skills() {
@@ -36,7 +36,7 @@ export default function Skills() {
 
     return (
         <div className="container mx-auto pb-[40px] px-5 md:px-2">
-            <p className="text-5xl font-black py-6">Skills</p>
+            <p className="text-5xl font-black py-6">Mes Compétences</p>
 
             <section>
                 <div>
@@ -77,7 +77,7 @@ export default function Skills() {
                     </div>
 
                     <div className="mt-5 border-t border-slate-700 my-10">
-                        <h1 className="text-4xl font-bold uppercase perso my-5">Editors</h1>
+                        <h1 className="text-4xl font-bold uppercase perso my-5">Éditeurs</h1>
                         <div className="flex flex-wrap gap-5">
                             {IDE.map(ide => (
                                 <div key={ide.id} className="flex flex-col justify-center items-center">
@@ -96,7 +96,7 @@ export default function Skills() {
                 </div>
 
                 <div className="mt-5 border-t border-slate-700 my-10">
-                    <h1 className="text-4xl font-bold uppercase perso my-5">Other</h1>
+                    <h1 className="text-4xl font-bold uppercase perso my-5">Autres</h1>
                     <div className="flex gap-5">
                         {OTHER.map(other => (
                             <div key={other.id} className="flex flex-col justify-center items-center">

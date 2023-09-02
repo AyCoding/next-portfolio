@@ -2,8 +2,8 @@ import Link from "next/link";
 import {ExternalLink} from "lucide-react";
 
 export const metadata = {
-    title: 'Aymeric DE LANGE - Experience',
-    description: 'Discover my experience of work and other',
+    title: 'Aymeric DE LANGE - Expérience',
+    description: 'Découvrir mon expérience du travail et autres',
 }
 
 export default function Experience() {
@@ -11,25 +11,25 @@ export default function Experience() {
         {
             id: 1,
             name: "Institut de Médecine du Sport de Troyes",
-            type: "Internship/France",
+            type: "Stage",
             date: "05/06/2023 - 06/07/2023",
-            location: "Remote",
+            location: "A distance",
             desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
             url: ""
         },
         {
             id: 1,
             name: "Webmaster Sage-femme",
-            type: "Home/France",
-            date: "July 2022 - Present",
-            location: "Remote",
+            type: "Maison",
+            date: "Juillet 2022 - Aujourd'hui",
+            location: "A distance",
             desc: "Création du site/design pour une sage-femme basé sur Troyes.",
             url: "https://canaud-emilie-sage-femme.fr/"
         }
     ]
     return (
         <div className="container mx-auto pb-[40px] px-5 md:px-2">
-            <h1 className="text-5xl font-black py-6">My experiences</h1>
+            <h1 className="text-5xl font-black py-6">Mes expériences</h1>
 
             {EXPERIENCES.map(experience => (
                 <div className="border-t border-slate-700 my-10" key={experience.id}>
@@ -54,7 +54,7 @@ export default function Experience() {
                                   target="_blank" rel="noreferrer"
                                   className="flex gap-1 items-center font-medium hover:text-gray-700 transition-all">
                                 <ExternalLink/>
-                                Website
+                                Site web
                             </Link>
                         )}
                     </div>
