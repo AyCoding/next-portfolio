@@ -7,18 +7,16 @@ export const metadata = {
 
 export default function Skills() {
     const TECH = [
-        {id: 1, path: "/Logo/LogosGitIcon.svg", alt: "Git"},
-        {id: 2, path: "/Logo/LogosVue.svg", alt: "Vue"},
-        {id: 3, path: "/Logo/LogosReact.svg", alt: "React"},
-        {id: 4, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
+        {id: 1, path: "/Logo/LogosVue.svg", alt: "VueJS"},
+        {id: 2, path: "/Logo/LogosReact.svg", alt: "ReactJS"},
+        {id: 3, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
         // {id: 100, path: "/Logo/LogosSvelteIcon.svg", alt: "Logo Svelte"},
     ]
 
     const LANGAGES = [
         {id: 1, path: "/Logo/LogosPython.svg", alt: "Python"},
-        {id: 2, path: "/Logo/LogosSass.svg", alt: "Sass"},
-        {id: 3, path: "/Logo/LogosJavascript.svg", alt: "JavaScript"},
-        {id: 4, path: "/Logo/LogosPhp.svg", alt: "PHP"},
+        {id: 2, path: "/Logo/LogosJavascript.svg", alt: "JavaScript"},
+        {id: 3, path: "/Logo/LogosPhp.svg", alt: "PHP"},
 
     ]
 
@@ -30,8 +28,11 @@ export default function Skills() {
     ]
 
     const OTHER = [
-        {id:1, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
-        {id:2, path: "/Logo/LogosFigma.svg", alt: "Figma"}
+        {id: 1, path: "/Logo/LogosGitIcon.svg", alt: "Git"},
+        {id: 2, path: "/Logo/LogosSass.svg", alt: "Sass"},
+        {id: 3, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
+        {id: 4, path: "/Logo/LogosFigma.svg", alt: "Figma"}
+
     ]
 
     return (
