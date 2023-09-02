@@ -7,10 +7,10 @@ export const metadata = {
 }
 
 export default function About() {
-    const LINKS = [
-        {id: 1, name: "LinkedIn", url: "https://www.linkedin.com/in/aymeric-de-lange-4333a924b/"},
-        {id: 2, name: "GitHub", url: "https://github.com/AyCoding"},
-    ]
+    // const LINKS = [
+    //     {id: 1, name: "Resume", url: ""},
+    //     // {id: 2, name: "GitHub", url: "https://github.com/AyCoding"},
+    // ]
 
     return (
         <div className="container mx-auto pb-[40px] px-5 md:px-2">
@@ -24,18 +24,18 @@ export default function About() {
                     pas à me contacter si vous avez des questions ou si vous êtes intéressé par une collaboration.
                 </p>
 
-                <div className="py-5">
-                    {LINKS.map(link => (
-                        <Link href={link.url}
-                              target="_blank" rel="noreferrer"
-                              className="flex gap-1 items-center font-medium text-2xl hover:text-gray-700 hover:translate-x-1 transition-all"
-                              key={link.id}
-                        >
-                            <ExternalLink/>
-                            {link.name}
-                        </Link>
-                    ))}
-                </div>
+                {/*<div className="py-5">*/}
+                {/*    {LINKS.map(link => (*/}
+                {/*        <Link href={link.url}*/}
+                {/*              target="_blank" rel="noreferrer"*/}
+                {/*              className="flex gap-1 items-center font-medium text-2xl hover:text-gray-700 hover:translate-x-1 transition-all"*/}
+                {/*              key={link.id}*/}
+                {/*        >*/}
+                {/*            <ExternalLink/>*/}
+                {/*            {link.name}*/}
+                {/*        </Link>*/}
+                {/*    ))}*/}
+                {/*</div>*/}
             </section>
         </div>
     )

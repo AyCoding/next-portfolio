@@ -30,5 +30,9 @@ export default function sitemap() {
             url: 'https://aymericdelange.fr/experience',
             lastModified: new Date(),
         },
+        {
+            url: 'https://aymericdelange.fr/contact',
+            lastModified: new Date(),
+        },
     ]
 }

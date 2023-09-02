@@ -10,7 +10,8 @@ export default function Aside() {
         {id: 2, name: "Projets", slug: "project"},
         {id: 3, name: "Skills", slug: "skills"},
         {id: 4, name: "Stats", slug: "stats"},
-        {id: 5, name: "Experience", slug: "experience"}
+        {id: 5, name: "Experience", slug: "experience"},
+        {id: 6, name: "Contact", slug: "contact"},
     ]
 
     const [nav, setNav] = useState(false)
