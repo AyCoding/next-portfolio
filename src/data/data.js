@@ -31,7 +31,7 @@ export const PROJECTS = [
         id: 3,
         name: "Institut de Médecine du Sport",
         slug: "institut-de-medecine-du-sport",
-        url: "",
+        url: "https://imstroyes.aymericdelange.fr/",
         cover: "accueil-ims.png",
         img: [
             {id: 1, img: "accueil-ims.png"},
