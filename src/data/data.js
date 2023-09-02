@@ -10,7 +10,10 @@ export const PROJECTS = [
         img: [
             {id: 1, img: "canaud-emilie-sage-femme.fr_.png"}
         ],
-        desc: "Création du site/design pour une sage-femme basé sur Troyes."
+        desc: "Création du site/design pour une sage-femme basé sur Troyes.",
+        languages: [
+            {id: 1, lang: "PHP"},
+        ]
     },
     {
         id: 2,
@@ -25,7 +28,11 @@ export const PROJECTS = [
             {id: 4, img: "Projects/Project-Selection/secretaire.png"},
             {id: 5, img: "Projects/Project-Selection/admin.png"},
         ],
-        desc: "Chaque fin d'année l’équipe pédagogique procède à une sélection des candidats pour intégrer le BTS SIO. Actuellement, cette sélection est réalisée à partir d’une grille d’évaluation sur papier pour chaque dossier. Une fois toutes les grilles remplies, un classement par point est effectué. Puis, il faut de nouveau manuellement rendre les résultats dans un tableau numérique."
+        desc: "Chaque fin d'année l’équipe pédagogique procède à une sélection des candidats pour intégrer le BTS SIO. Actuellement, cette sélection est réalisée à partir d’une grille d’évaluation sur papier pour chaque dossier. Une fois toutes les grilles remplies, un classement par point est effectué. Puis, il faut de nouveau manuellement rendre les résultats dans un tableau numérique.",
+        languages: [
+            {id:1, lang: "PHP"},
+            {id:2, lang: "MySQL"},
+        ]
     },
     {
         id: 3,
@@ -37,7 +44,10 @@ export const PROJECTS = [
             {id: 1, img: "accueil-ims.png"},
             {id: 2, img: "institut-ims.png"}
         ],
-        desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes."
+        desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
+        languages: [
+            {id: 1, lang: "VueJS"},
+        ]
     }
 ]
 

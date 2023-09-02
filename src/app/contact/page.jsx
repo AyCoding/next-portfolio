@@ -15,24 +15,23 @@ export default function Contact() {
     ]
     return (
         <>
-        <div className="container mx-auto pb-[40px] px-5 md:px-2 h-screen flex flex-col justify-center">
-            <h1 className="text-5xl font-black py-6 perso uppercase">Contact</h1>
+            <div className="container mx-auto pb-[40px] px-5 md:px-2 h-screen flex flex-col justify-center">
+                <h1 className="text-5xl font-black py-6 perso uppercase">Contact</h1>
 
-            <section className="container flex justify-between border-t-2 border-black">
-                <div className="flex flex-col mt-5">
-                    {LINKS.map(link => (
-                        <Link href={link.url} target="_blank" rel="noreferrer"
-                              className="hover:translate-x-1 transition-transform text-xl font-medium flex gap-2"
-                              key={link.id}
-                        >
-                            <ExternalLink/>
-                            {link.name}
-                        </Link>
-                    ))}
-                </div>
-
-            </section>
-        </div>
+                <section className="container flex justify-between border-t-2 border-black">
+                    <div className="flex flex-col mt-5">
+                        {LINKS.map(link => (
+                            <Link href={link.url} target="_blank" rel="noreferrer"
+                                  className="hover:translate-x-1 transition-transform text-xl font-medium flex gap-2"
+                                  key={link.id}
+                            >
+                                <ExternalLink/>
+                                {link.name}
+                            </Link>
+                        ))}
+                    </div>
+                </section>
+            </div>
         </>
     )
 }

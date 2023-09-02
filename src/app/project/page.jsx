@@ -39,6 +39,15 @@ export default function Project() {
                             <p className="max-w-5xl">
                                 {project.desc}
                             </p>
+
+                            <div className="flex gap-2 pt-2 flex-wrap text-sm font-normal">
+                                {project.languages && project.languages.map(language => (
+                                    <div key={language.id} className="border border-stone-700 gap-2 rounded-full px-4 py-0.5">
+                                        {language.lang}
+                                    </div>
+                                ))}
+                            </div>
+
                             <Link href={`/project/${project.slug}`}
                                   className="inline-block w-fit py-2 px-4 mt-5 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-500 hover:transition">
                                 Voir le projet
@@ -46,7 +55,6 @@ export default function Project() {
                         </div>
                     </div>
                 ))}
-
             </div>
         </>
     )
