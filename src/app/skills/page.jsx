@@ -6,18 +6,14 @@ export const metadata = {
 }
 
 export default function Skills() {
-    const TECH = [
-        {id: 1, path: "/Logo/LogosVue.svg", alt: "VueJS"},
-        {id: 2, path: "/Logo/LogosReact.svg", alt: "ReactJS"},
-        {id: 3, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
-        // {id: 100, path: "/Logo/LogosSvelteIcon.svg", alt: "Logo Svelte"},
-    ]
-
-    const LANGAGES = [
-        {id: 1, path: "/Logo/LogosPython.svg", alt: "Python"},
+    const WEB = [
+        {id: 1, path: "/Logo/LogosSass.svg", alt: "Sass"},
         {id: 2, path: "/Logo/LogosJavascript.svg", alt: "JavaScript"},
-        {id: 3, path: "/Logo/LogosPhp.svg", alt: "PHP"},
-
+        {id: 3, path: "/Logo/LogosVue.svg", alt: "VueJS"},
+        {id: 4, path: "/Logo/LogosReact.svg", alt: "ReactJS"},
+        {id: 5, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
+        {id: 6, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
+        {id: 7, path: "/Logo/LogosPhp.svg", alt: "PHP"},
     ]
 
     const IDE = [
@@ -29,11 +25,11 @@ export default function Skills() {
 
     const OTHER = [
         {id: 1, path: "/Logo/LogosGitIcon.svg", alt: "Git"},
-        {id: 2, path: "/Logo/LogosSass.svg", alt: "Sass"},
-        {id: 3, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
-        {id: 4, path: "/Logo/LogosFigma.svg", alt: "Figma"}
-
+        {id: 2, path: "/Logo/LogosFigma.svg", alt: "Figma"},
+        {id: 3, path: "/Logo/LogosPython.svg", alt: "Python"},
     ]
+
+
 
     return (
         <div className="container mx-auto pb-[40px] px-5 md:px-2">
@@ -42,36 +38,18 @@ export default function Skills() {
             <section>
                 <div>
                     <div className="mt-5 border-t border-slate-700 my-10">
-                        <h1 className="text-4xl font-bold uppercase perso my-5">Technologies</h1>
+                        <h1 className="text-4xl font-bold uppercase perso my-5">WEB</h1>
                         <div className="flex flex-wrap gap-5">
-                            {TECH.map(tech => (
-                                <div key={tech.id} className="flex flex-col justify-center items-center">
+                            {WEB.map(web => (
+                                <div key={web.id} className="flex flex-col justify-center items-center">
                                     <Image
-                                        src={tech.path}
-                                        alt={tech.alt}
-                                        width={40}
-                                        height={40}
-                                        className={"h-[40px]"}
+                                        src={web.path}
+                                        alt={web.alt}
+                                        width={60}
+                                        height={60}
+                                        className={"h-[60px]"}
                                     />
-                                    <span className="font-medium mt-2">{tech.alt}</span>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className="mt-5 border-t border-slate-700 my-10">
-                        <h1 className="text-4xl font-bold uppercase perso my-5">Langages</h1>
-                        <div className="flex flex-wrap gap-5">
-                            {LANGAGES.map(langage => (
-                                <div key={langage.id} className="flex flex-col justify-center items-center">
-                                    <Image
-                                        src={langage.path}
-                                        alt={langage.alt}
-                                        width={40}
-                                        height={40}
-                                        className={"h-[40px]"}
-                                    />
-                                    <span className="font-medium mt-2">{langage.alt}</span>
+                                    <span className="font-medium mt-2">{web.alt}</span>
                                 </div>
                             ))}
                         </div>
@@ -85,9 +63,9 @@ export default function Skills() {
                                     <Image
                                         src={ide.path}
                                         alt={ide.alt}
-                                        width={40}
-                                        height={40}
-                                        className={"h-[40px]"}
+                                        width={60}
+                                        height={60}
+                                        className={"h-[60px]"}
                                     />
                                     <span className="font-medium mt-2">{ide.alt}</span>
                                 </div>
@@ -104,9 +82,9 @@ export default function Skills() {
                                 <Image
                                     src={other.path}
                                     alt={other.alt}
-                                    width={40}
-                                    height={40}
-                                    className={"h-[40px]"}
+                                    width={60}
+                                    height={60}
+                                    className={"h-[60px]"}
                                 />
                                 <span className="font-medium mt-2">{other.alt}</span>
                             </div>
