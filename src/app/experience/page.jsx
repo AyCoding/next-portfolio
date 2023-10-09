@@ -34,7 +34,7 @@ export default function Experience() {
         }
     ]
     return (
-        <div className="container mx-auto pb-[40px] px-5 md:px-2">
+        <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">
             <h1 className="text-5xl font-black py-6">Mes expériences</h1>
 
             {EXPERIENCES.map(experience => (

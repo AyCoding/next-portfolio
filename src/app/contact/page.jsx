@@ -15,7 +15,7 @@ export default function Contact() {
     ]
     return (
         <>
-            <div className="container mx-auto pb-[40px] px-5 md:px-2 h-screen flex flex-col justify-center">
+            <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2 h-screen flex flex-col justify-center">
                 <h1 className="text-5xl font-black py-6 perso uppercase">Contact</h1>
 
                 <section className="container flex justify-between border-t-2 border-black">

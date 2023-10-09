@@ -14,6 +14,7 @@ export default function Skills() {
         {id: 5, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
         {id: 6, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
         {id: 7, path: "/Logo/LogosPhp.svg", alt: "PHP"},
+	{id: 8, path: "/Logo/LogosSvelteIcon.svg", alt: "Svelte"},
     ]
 
     const IDE = [
@@ -32,7 +33,7 @@ export default function Skills() {
 
 
     return (
-        <div className="container mx-auto pb-[40px] px-5 md:px-2">
+        <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">
             <p className="text-5xl font-black py-6">Mes Compétences</p>
 
             <section>
