@@ -1,6 +1,31 @@
-// Here, all data !!
+interface Image {
+    id: number;
+    img: string;
+}
 
-export const PROJECTS = [
+interface Language {
+    id: number;
+    lang: string;
+}
+
+interface Project {
+    id: number;
+    name: string;
+    slug: string;
+    url: string;
+    cover: string;
+    img: Image[];
+    desc: string;
+    languages: Language[];
+}
+
+export type {
+    Image,
+    Project,
+    Language
+}
+
+export const PROJECTS: Project[] = [
     {
         id: 1,
         name: "Webmaster Sage-femme",
@@ -30,8 +55,8 @@ export const PROJECTS = [
         ],
         desc: "Chaque fin d'année l’équipe pédagogique procède à une sélection des candidats pour intégrer le BTS SIO. Actuellement, cette sélection est réalisée à partir d’une grille d’évaluation sur papier pour chaque dossier. Une fois toutes les grilles remplies, un classement par point est effectué. Puis, il faut de nouveau manuellement rendre les résultats dans un tableau numérique.",
         languages: [
-            {id:1, lang: "PHP"},
-            {id:2, lang: "MySQL"},
+            {id: 1, lang: "PHP"},
+            {id: 2, lang: "MySQL"},
         ]
     },
     {
