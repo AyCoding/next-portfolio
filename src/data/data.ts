@@ -14,6 +14,7 @@ interface Project {
     slug: string;
     url: string;
     cover: string;
+    alt: string;
     img: Image[];
     desc: string;
     languages: Language[];
@@ -32,6 +33,7 @@ export const PROJECTS: Project[] = [
         slug: "emilie-canaud-sage-femme",
         url: "https://canaud-emilie-sage-femme-.fr",
         cover: "canaud-emilie-sage-femme.fr_.png",
+        alt: "Image de du site web de Emilie Canaud",
         img: [
             {id: 1, img: "canaud-emilie-sage-femme.fr_.png"}
         ],
@@ -46,6 +48,7 @@ export const PROJECTS: Project[] = [
         slug: "projet-selection",
         url: "https://github.com/AyCoding/Projet-Selection",
         cover: "Projects/Project-Selection/eval.png",
+        alt: "Image du projet selection",
         img: [
             {id: 1, img: "Projects/Project-Selection/login.png"},
             {id: 2, img: "Projects/Project-Selection/eval.png"},
@@ -65,6 +68,7 @@ export const PROJECTS: Project[] = [
         slug: "institut-de-medecine-du-sport",
         url: "https://imstroyes.aymericdelange.fr/",
         cover: "accueil-ims.png",
+        alt: "Image de du site web de l'institut" ,
         img: [
             {id: 1, img: "accueil-ims.png"},
             {id: 2, img: "institut-ims.png"}
