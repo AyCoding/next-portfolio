@@ -11,7 +11,9 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     return (
         <html lang="fr">
-        <GoogleAnalytics GA_MEASUREMENT_ID='G-HB9TKGVWWK'/>
+        <head>
+            <GoogleAnalytics GA_MEASUREMENT_ID='G-HB9TKGVWWK'/>
+        </head>
         <body>
         {children}
         <Aside />
