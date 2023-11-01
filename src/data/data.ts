@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
         id: 1,
         name: "Webmaster Sage-femme",
         slug: "emilie-canaud-sage-femme",
-        url: "https://canaud-emilie-sage-femme-.fr",
+        url: "https://canaud-emilie-sage-femme.fr",
         cover: "canaud-emilie-sage-femme.fr_.png",
         alt: "Image de du site web de Emilie Canaud",
         img: [
@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
         id: 3,
         name: "Institut de Médecine du Sport",
         slug: "institut-de-medecine-du-sport",
-        url: "https://imstroyes.aymericdelange.fr/",
+        url: "https://imstroyes.fr/",
         cover: "accueil-ims.png",
         alt: "Image de du site web de l'institut" ,
         img: [
