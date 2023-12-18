@@ -77,6 +77,24 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "VueJS"},
         ]
+    },
+    {
+        id: 4,
+        name: "Projet Compétences (Lycée)",
+        slug: "projet-competences",
+        url: "",
+        cover: "Projects/PC/PC-login.png",
+        alt: "Image de du site web de l'institut" ,
+        img: [
+            {id: 1, img: "Projects/PC/PC-login.png"},
+            {id: 2, img: "Projects/PC/PC-accueil-rh.png"},
+            {id: 3, img: "Projects/PC/PC-employee.png"},
+            {id: 4, img: "Projects/PC/PC-accueil-collabo.png"}
+        ],
+        desc: "En équipe pendant une projet de cours de BTS, j'ai contribué au projet 2024 de S11. Mon rôle consistait à développer une solution de gestion des compétences, en assurant une identification sécurisée, en mettant en place des fonctionnalités clés, et en optimisant l'interface utilisateur. Ce projet reflète ma capacité à travailler efficacement en équipe tout en relevant des défis techniques.",
+        languages: [
+            {id: 1, lang: "ReactJS"},
+        ]
     }
 ]
 
