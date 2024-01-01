@@ -67,11 +67,16 @@ export const PROJECTS: Project[] = [
         name: "Institut de Médecine du Sport",
         slug: "institut-de-medecine-du-sport",
         url: "https://imstroyes.fr/",
-        cover: "accueil-ims.png",
+        cover: "Projects/imstroyes/imstroyes.png",
         alt: "Image de du site web de l'institut" ,
         img: [
-            {id: 1, img: "accueil-ims.png"},
-            {id: 2, img: "institut-ims.png"}
+            {id: 1, img: "Projects/imstroyes/imstroyes.png"},
+            {id: 2, img: "Projects/imstroyes/institut.png"},
+            {id: 3, img: "Projects/imstroyes/equipe.png"},
+            {id: 4, img: "Projects/imstroyes/sante.png"},
+            {id: 5, img: "Projects/imstroyes/sport-sante.png"},
+            {id: 6, img: "Projects/imstroyes/teamims.png"},
+            {id: 7, img: "Projects/imstroyes/contact.png"},
         ],
         desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
         languages: [

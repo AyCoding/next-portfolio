@@ -33,8 +33,8 @@ export default function ProjectSlug({params}: { params: Params}) {
             )}
             <div>
                 {project?.img.map(images => (
-                    <Image src={`/${images.img}`} alt="" key={images.id} width={2000} height={2000}
-                           className="mb-5 border-t border-slate-700 w-full"/>
+                    <Image src={`/${images.img}`} alt="" key={images.id} width={1440} height={900}
+                           className="mb-5 border-t border-slate-700 w-full shadow-lg"/>
                 ))}
             </div>
         </div>

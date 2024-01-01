@@ -25,8 +25,8 @@ export default function Project() {
                                 src={`/${project.cover}`}
                                 alt={project.alt}
                                 className="max-w-full max-h-[320px] lg:max-h-fit lg:max-w-2xl object-cover object-top"
-                                width={1000}
-                                height={1000}
+                                width={1440}
+                                height={900}
                                 priority
                             />
                         </div>

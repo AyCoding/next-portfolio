@@ -24,7 +24,7 @@ export default function Experience() {
             id: 1,
             name: "Webmaster Sage-femme",
             type: "Maison",
-            date: "Juillet 2022 - Aujourd'hui",
+            date: "07/2022 - 09/2023",
             location: "A distance",
             desc: "Création du site/design pour une sage-femme basé sur Troyes.",
             url: "https://canaud-emilie-sage-femme.fr/",
