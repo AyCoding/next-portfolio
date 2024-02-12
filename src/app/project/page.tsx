@@ -83,7 +83,7 @@ export default function Project() {
                         </h1>
                         <h2 className="text-xl text-slate-400 pb-4">JavaScript HTML</h2>
                         <p>
-                            Création d&apos;un application mobile à l&apos;aide de JavaScript et Apache Cordova pour afin d&apos;utiliser les requêtes api sur le ERP/CRM Dolibarr pour la gestion des remboursements.
+                            Création d&apos;un application mobile à l&apos;aide de JavaScript et Apache Cordova afin d&apos;utiliser les requêtes api sur le ERP/CRM Dolibarr pour la gestion des remboursements.
                         </p>
                     </div>
                     <div>
