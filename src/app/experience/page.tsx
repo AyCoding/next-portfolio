@@ -17,7 +17,8 @@ export default function Experience() {
             desc: "Finalisation du site principale, ajout des actualités, d'une galerie photos. Gestion des données avec un CMS (Système de gestion de contenu) avec Strapi. Développement d'une application web en Vue.js pour la gestion des rendez-vous.",
             url: "https://imstroyes.fr/",
             languages: [
-                {id: 1, lang: "NuxtJS"}
+                {id: 1, lang: "NuxtJS"},
+                {id: 2, lang: "VueJS"}
             ]
         },
         {
@@ -69,13 +70,15 @@ export default function Experience() {
                         <div className="font-light flex-1 md:mr-5">
                             <p className="font-normal">{experience.desc}</p>
 
-                            <div className="flex justify-between gap-2 py-5 md:py-2 flex-wrap text-sm font-normal ">
-                                {experience.languages && experience.languages.map(language => (
-                                    <div key={language.id}
-                                         className="border border-stone-700 gap-2 rounded-full px-4 py-0.5">
-                                        {language.lang}
-                                    </div>
-                                ))}
+                            <div className="flex justify-between gap-2 py-5 md:py-2 flex-wrap text-sm font-normal">
+                                <div className="flex gap-2 py-5 md:py-2 flex-wrap text-sm font-normal">
+                                    {experience.languages && experience.languages.map(language => (
+                                        <div key={language.id}
+                                             className="border border-stone-700 gap-2 rounded-full px-4 py-0.5">
+                                            {language.lang}
+                                        </div>
+                                    ))}
+                                </div>
                                 {experience.url && (
                                     <Link href={experience.url}
                                           target="_blank" rel="noreferrer"
