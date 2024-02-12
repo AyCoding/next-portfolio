@@ -14,7 +14,7 @@ export default function Experience() {
             type: "Stage",
             date: "08/01/2024 - 09/02/2024",
             location: "A distance",
-            desc: "",
+            desc: "Finalisation du site principale, ajout des actualités, d'une galerie photos. Gestion des données avec un CMS (Système de gestion de contenu) avec Strapi. Développement d'une application web en Vue.js pour la gestion des rendez-vous.",
             url: "https://imstroyes.fr/",
             languages: [
                 {id: 1, lang: "NuxtJS"}
@@ -29,7 +29,7 @@ export default function Experience() {
             desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
             url: "https://imstroyes.fr/",
             languages: [
-                {id: 1, lang: "VueJS"}
+                {id: 1, lang: "NuxtJS"}
             ]
         },
         {
