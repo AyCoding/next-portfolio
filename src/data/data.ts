@@ -80,11 +80,29 @@ export const PROJECTS: Project[] = [
         ],
         desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
         languages: [
-            {id: 1, lang: "VueJS"},
+            {id: 1, lang: "Nuxt.js"},
         ]
     },
     {
         id: 4,
+        name: "Projet roulette (Lycée)",
+        slug: "projet-roulette",
+        url: "",
+        cover: "Projects/roulette/roulette-draw.png",
+        alt: "Projet roulette",
+        img: [
+            // {id: 1, img: "Projects/roulette/roulette.png"},
+            {id: 2, img: "Projects/roulette/roulette-draw.png"},
+        ],
+        desc: "Projet de rentré de deuxième année de BTS SIO SLAM, pour revoir les compétences acquises l'année dernière.\n" +
+            "                            Roulette est une application web qui permet, à partir d'une liste d&apos;étudiants (une classe), de tirer au sort un étudiant. Une fois l'étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L'opération est renouvelée jusqu'à épuisement de la liste.\n",
+        languages: [
+            {id: 1, lang: "PHP"},
+            {id: 2, lang: "MySQL"},
+        ]
+    },
+    {
+        id: 5,
         name: "Projet Compétences (Lycée)",
         slug: "projet-competences",
         url: "",

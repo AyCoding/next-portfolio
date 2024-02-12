@@ -56,7 +56,7 @@ export default function Project() {
                     </div>
                 ))}
 
-                <h1 className="text-5xl font-black pt-6">Projets scolaire</h1>
+                {/*<h1 className="text-5xl font-black pt-6">Projets scolaire</h1>
                 <div className="flex flex-col gap-6 mb-6">
                     <div>
                         <h1 className="text-2xl font-medium mb-2 w-full">
@@ -96,7 +96,7 @@ export default function Project() {
                             Roulette est une application web qui permet, à partir d&apos;une liste d&apos;étudiants (une classe), de tirer au sort un étudiant. Une fois l&apos;étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L&apos;opération est renouvelée jusqu&apos;à épuisement de la liste.
                         </p>
                     </div>
-                </div>
+                </div>*/}
             </div>
         </>
     )
