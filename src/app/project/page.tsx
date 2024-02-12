@@ -90,10 +90,10 @@ export default function Project() {
                         <h1 className="text-2xl font-medium mb-2 w-full">
                             Roulette, deuxième année
                         </h1>
-                        <h2 className="text-xl text-slate-400 pb-4">PHP MySQL HTML</h2>
+                        <h2 className="text-xl text-slate-400 pb-4">PHP MySQL / Svelte</h2>
                         <p>
                             Projet de rentré de deuxième année de BTS SIO SLAM, pour revoir les compétences acquises l&apos;année dernière.
-                            Roulette est une application web qui permet, à partir d&apos;une liste d&apos;étudiants (une classe), de tirer au sort un étudiant. Une fois l'étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L'opération est renouvelée jusqu'à épuisement de la liste.
+                            Roulette est une application web qui permet, à partir d&apos;une liste d&apos;étudiants (une classe), de tirer au sort un étudiant. Une fois l&apos;étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L&apos;opération est renouvelée jusqu&apos;à épuisement de la liste.
                         </p>
                     </div>
                 </div>
