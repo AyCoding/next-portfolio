@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export const metadata = {
-    title: 'Aymeric DE LANGE - Compétences',
-    description: 'Découvrir mes compétences',
+    title: 'Aymeric DE LANGE - Outils, langages',
+    description: 'Découvrir mes outils, langages.',
 }
 
 export default function Skills() {
@@ -34,7 +34,7 @@ export default function Skills() {
 
     return (
         <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">
-            <p className="text-5xl font-black py-6">Mes Compétences</p>
+            <p className="text-5xl font-black py-6">Mes outils et langages</p>
 
             <section>
                 <div>

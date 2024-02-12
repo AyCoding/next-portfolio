@@ -8,7 +8,7 @@ export default function Aside() {
         {id: 0, name: "Accueil", slug: ""},
         {id: 1, name: "About", slug: "about"},
         {id: 2, name: "Projets", slug: "project"},
-        {id: 3, name: "Skills", slug: "skills"},
+        {id: 3, name: "Tools", slug: "tools"},
         // {id: 4, name: "Stats", slug: "stats"},
         {id: 5, name: "Experience", slug: "experience"},
         {id: 6, name: "Contact", slug: "contact"},
