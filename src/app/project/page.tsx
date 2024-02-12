@@ -55,6 +55,48 @@ export default function Project() {
                         </div>
                     </div>
                 ))}
+
+                <h1 className="text-5xl font-black pt-6">Projets scolaire</h1>
+                <div className="flex flex-col gap-6 mb-6">
+                    <div>
+                        <h1 className="text-2xl font-medium mb-2 w-full">
+                            Projet Sélection, première année
+                        </h1>
+                        <h2 className="text-xl text-slate-400 pb-4">PHP MySQL HTML SCSS</h2>
+                        <p>
+                            Chaque fin d&apos;année l’équipe pédagogique procède à une sélection des candidats pour intégrer le BTS SIO.
+                            Actuellement, cette sélection est réalisée à partir d’une grille d’évaluation sur papier pour chaque dossier.
+                            Une fois toutes les grilles remplies, un classement par point est effectué.
+                            Puis, il faut de nouveau manuellement rendre les résultats dans un tableau numérique.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 className="text-2xl font-medium mb-2 w-full">
+                            ScoreResto, première année
+                        </h1>
+                        <h2 className="text-xl text-slate-400 pb-4">PHP MySQL HTML</h2>
+                        <p>ScoreResto est une application permettant l&apos;apprentissage du Modèle-Vue-Contrôleur en PHP.</p>
+                    </div>
+                    <div>
+                        <h1 className="text-2xl font-medium mb-2 w-full">
+                            DolibarrApp, première année
+                        </h1>
+                        <h2 className="text-xl text-slate-400 pb-4">JavaScript HTML</h2>
+                        <p>
+                            Création d&apos;un application mobile à l&apos;aide de JavaScript et Apache Cordova pour afin d&apos;utiliser les requêtes api sur le ERP/CRM Dolibarr pour la gestion des remboursements.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 className="text-2xl font-medium mb-2 w-full">
+                            Roulette, deuxième année
+                        </h1>
+                        <h2 className="text-xl text-slate-400 pb-4">PHP MySQL HTML</h2>
+                        <p>
+                            Projet de rentré de deuxième année de BTS SIO SLAM, pour revoir les compétences acquises l&apos;année dernière.
+                            Roulette est une application web qui permet, à partir d&apos;une liste d&apos;étudiants (une classe), de tirer au sort un étudiant. Une fois l'étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L'opération est renouvelée jusqu'à épuisement de la liste.
+                        </p>
+                    </div>
+                </div>
             </div>
         </>
     )
