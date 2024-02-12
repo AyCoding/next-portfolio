@@ -33,7 +33,7 @@ export default function Experience() {
                 {id: 1, lang: "NuxtJS"}
             ]
         },
-        {
+        /*{
             id: 1,
             name: "Webmaster Sage-femme",
             type: "Maison",
@@ -44,7 +44,7 @@ export default function Experience() {
             languages: [
                 {id: 1, lang: "PHP"}
             ]
-        }
+        }*/
     ]
     return (
         <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">

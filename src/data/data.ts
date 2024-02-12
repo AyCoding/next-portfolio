@@ -27,7 +27,7 @@ export type {
 }
 
 export const PROJECTS: Project[] = [
-    {
+    /*{
         id: 1,
         name: "Webmaster Sage-femme",
         slug: "emilie-canaud-sage-femme",
@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "PHP"},
         ]
-    },
+    },*/
     {
         id: 2,
         name: "Projet sélection (Lycée)",
