@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
         id: 2,
         name: "Projet sélection (Lycée)",
         slug: "projet-selection",
-        url: "https://github.com/AyCoding/Projet-Selection",
+        url: "",
         cover: "Projects/Project-Selection/eval.png",
         alt: "Image du projet selection",
         img: [
