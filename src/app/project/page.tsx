@@ -56,6 +56,9 @@ export default function Project() {
                     </div>
                 ))}
 
+                <h1 className="text-5xl font-black pt-6">Épreuve E4 : Portefeuille de compétences </h1>
+                <Link href="/Tableau E4 de  22DELANGE.pdf" className="text-2xl font-medium mb-2 w-full">Voir le tableau</Link>
+
                 {/*<h1 className="text-5xl font-black pt-6">Projets scolaire</h1>
                 <div className="flex flex-col gap-6 mb-6">
                     <div>
