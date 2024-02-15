@@ -95,7 +95,7 @@ export const PROJECTS: Project[] = [
             {id: 2, img: "Projects/roulette/roulette-draw.png"},
         ],
         desc: "Projet de rentré de deuxième année de BTS SIO SLAM, pour revoir les compétences acquises l'année dernière.\n" +
-            "                            Roulette est une application web qui permet, à partir d'une liste d&apos;étudiants (une classe), de tirer au sort un étudiant. Une fois l'étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L'opération est renouvelée jusqu'à épuisement de la liste.\n",
+            "                            Roulette est une application web qui permet, à partir d'une liste d'étudiants (une classe), de tirer au sort un étudiant. Une fois l'étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L'opération est renouvelée jusqu'à épuisement de la liste.\n",
         languages: [
             {id: 1, lang: "PHP"},
             {id: 2, lang: "MySQL"},

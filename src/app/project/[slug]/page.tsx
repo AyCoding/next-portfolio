@@ -7,7 +7,7 @@ interface Params {
     slug: string;
 }
 
-export async function generateMetadata({params}: { params: Params}) {
+export async function generateMetadata({params}: { params: Params }) {
     const project: Project | undefined = PROJECTS.find(project => project.slug === params.slug)
     return {
         title: `Aymeric DE LANGE - ${project?.name}`,
@@ -15,7 +15,7 @@ export async function generateMetadata({params}: { params: Params}) {
     }
 }
 
-export default function ProjectSlug({params}: { params: Params}) {
+export default function ProjectSlug({params}: { params: Params }) {
     const project = PROJECTS.find(project => project.slug === params.slug)
 
     return (
@@ -32,6 +32,15 @@ export default function ProjectSlug({params}: { params: Params}) {
                 </Link>
             )}
             <div>
+                <p className="max-w-5xl pt-6 text-xl mx-auto leading-normal">{project?.desc}</p>
+                <div className="flex gap-2 pt-2 flex-wrap text-sm font-normal max-w-5xl mx-auto mb-5">
+                    {project?.languages && project.languages.map(language => (
+                        <div key={language.id} className="border border-stone-700 gap-2 rounded-full px-4 py-0.5">
+                            {language.lang}
+                        </div>
+                    ))}
+                </div>
+
                 {project?.img.map(images => (
                     <Image src={`/${images.img}`} alt="" key={images.id} width={1440} height={900}
                            className="mb-5 border-t border-slate-700 w-full shadow-lg"/>
