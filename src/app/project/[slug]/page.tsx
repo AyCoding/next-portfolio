@@ -32,13 +32,15 @@ export default function ProjectSlug({params}: { params: Params }) {
                 </Link>
             )}
             <div>
-                <p className="max-w-5xl pt-6 text-xl mx-auto leading-normal">{project?.desc}</p>
-                <div className="flex gap-2 pt-2 flex-wrap text-sm font-normal max-w-5xl mx-auto mb-5">
-                    {project?.languages && project.languages.map(language => (
-                        <div key={language.id} className="border border-stone-700 gap-2 rounded-full px-4 py-0.5">
-                            {language.lang}
-                        </div>
-                    ))}
+                <div className="py-6">
+                    <p className="max-w-5xl text-lg leading-normal mx-auto">{project?.desc}</p>
+                    <div className="flex gap-2 pt-2 flex-wrap text-sm font-normal max-w-5xl mb-5 mx-auto">
+                        {project?.languages && project.languages.map(language => (
+                            <div key={language.id} className="border border-stone-700 rounded-full gap-2 px-4 py-0.5">
+                                {language.lang}
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 {project?.img.map(images => (
