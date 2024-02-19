@@ -98,7 +98,9 @@ export const PROJECTS: Project[] = [
             "                            Roulette est une application web qui permet, à partir d'une liste d'étudiants (une classe), de tirer au sort un étudiant. Une fois l'étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L'opération est renouvelée jusqu'à épuisement de la liste.\n",
         languages: [
             {id: 1, lang: "PHP"},
-            {id: 2, lang: "MySQL"},
+            {id: 2, lang: "MVC"},
+            {id: 2, lang: "POO"},
+            {id: 4, lang: "MySQL"},
         ]
     },
     {
@@ -117,6 +119,7 @@ export const PROJECTS: Project[] = [
         desc: "En équipe pendant une projet de cours de BTS, j'ai contribué au projet 2024 de S11. Mon rôle consistait à développer une solution de gestion des compétences, en assurant une identification sécurisée, en mettant en place des fonctionnalités clés, et en optimisant l'interface utilisateur. Ce projet reflète ma capacité à travailler efficacement en équipe tout en relevant des défis techniques.",
         languages: [
             {id: 1, lang: "ReactJS"},
+            {id: 1, lang: "Supabase"},
         ]
     }
 ]
