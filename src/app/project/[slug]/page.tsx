@@ -26,7 +26,8 @@ export default function ProjectSlug({params}: { params: Params }) {
             </h1>
             {project?.url && (
                 <Link href={`${project.url}`}
-                      className="flex gap-1 items-center font-medium text-xl hover:text-gray-700 my-2 hover:translate-x-1 transition-all">
+                      className="flex gap-1 items-center font-medium text-xl hover:text-gray-700 my-2 hover:translate-x-1 transition-all"
+                      target="_blank" rel="noreferrer">
                     <ExternalLink/>
                     Visiter le site web
                 </Link>
