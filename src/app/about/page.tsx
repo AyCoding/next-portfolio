@@ -11,7 +11,7 @@ export default function About() {
     return (
         <div
             className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2 sm:flex sm:flex-col sm:justify-center sm:h-screen">
-            <p className="text-5xl font-black py-6">Découvrez-moi</p>
+            <p className="text-5xl font-black py-6">Qui suis-je ?</p>
 
             <section className="w-full h-52 py-5 md:rounded-3xl">
                 <p className="text-xl text-gray-700">
@@ -27,7 +27,7 @@ export default function About() {
                           className="hover:translate-x-1 transition-transform text-xl font-medium flex gap-2"
                     >
                         <ExternalLink/>
-                        Voir mon CV
+                        Curriculum vitæ
                     </Link>
                 </div>
             </section>
