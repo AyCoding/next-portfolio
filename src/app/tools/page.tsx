@@ -5,7 +5,7 @@ export const metadata = {
     description: 'Découvrir mes outils, langages.',
 }
 
-export default function Skills() {
+export default function Tools() {
     const WEB = [
         {id: 1, path: "/Logo/LogosSass.svg", alt: "Sass"},
         {id: 2, path: "/Logo/LogosJavascript.svg", alt: "JavaScript"},
@@ -14,7 +14,7 @@ export default function Skills() {
         {id: 5, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
         {id: 6, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
         {id: 7, path: "/Logo/LogosPhp.svg", alt: "PHP"},
-	{id: 8, path: "/Logo/LogosSvelteIcon.svg", alt: "Svelte"},
+        {id: 8, path: "/Logo/LogosSvelteIcon.svg", alt: "Svelte"},
     ]
 
     const IDE = [
@@ -29,7 +29,6 @@ export default function Skills() {
         {id: 2, path: "/Logo/LogosFigma.svg", alt: "Figma"},
         {id: 3, path: "/Logo/LogosPython.svg", alt: "Python"},
     ]
-
 
 
     return (
@@ -92,9 +91,7 @@ export default function Skills() {
                         ))}
                     </div>
                 </div>
-
             </section>
-
         </div>
     )
 }
