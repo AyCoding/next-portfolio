@@ -93,6 +93,18 @@ export default function Experience() {
                 </div>
             ))}
 
+            <div className="pt-10 pb-10 flex flex-col gap-4">
+                <h1 className="text-5xl font-black py-6">Mes études</h1>
+                <div className="flex justify-between flex-wrap">
+                    <p className="uppercase text-xl font-bold">Lycée Gaspard Monge, Charleville-Mézières</p>
+                    <p className="text-xl">2022/2024</p>
+                </div>
+                <div className="flex justify-between flex-wrap">
+                    <p className="uppercase text-xl font-bold">LP Jean-Baptiste Clément, Vivier-au-Court</p>
+                    <p className="text-xl">2019/2022</p>
+                </div>
+            </div>
+
         </div>
     )
 }
