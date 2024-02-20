@@ -8,6 +8,12 @@ interface Language {
     lang: string;
 }
 
+interface skills {
+    id: number;
+    url: string;
+    name: string;
+}
+
 interface Project {
     id: number;
     name: string;
@@ -18,6 +24,8 @@ interface Project {
     img: Image[];
     desc: string;
     languages: Language[];
+    skills?: skills[];
+
 }
 
 export type {
@@ -81,6 +89,10 @@ export const PROJECTS: Project[] = [
         desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
         languages: [
             {id: 1, lang: "Nuxt.js"},
+        ],
+        skills: [
+            {id: 1, url: "/files/btssio.org/Stage SIO1 - Institut de Médecine du Sport de Troyes.pdf", name: "Stage SIO1"},
+            {id: 1, url: "/files/btssio.org/Stage SIO2 - Institut de Médecine du Sport de Troyes.pdf", name: "Stage SIO2"}
         ]
     },
     {
@@ -101,6 +113,9 @@ export const PROJECTS: Project[] = [
             {id: 2, lang: "MVC"},
             {id: 2, lang: "POO"},
             {id: 4, lang: "MySQL"},
+        ],
+        skills: [
+            {id: 1, url: "/files/btssio.org/Roulette PHP.pdf", name: "Fiche des compétences"}
         ]
     },
     {
@@ -120,6 +135,9 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "ReactJS"},
             {id: 1, lang: "Supabase"},
+        ],
+        skills: [
+            {id: 1, url: "/files/btssio.org/Projet compétences.pdf", name: "Fiche des compétences"}
         ]
     }
 ]

@@ -104,7 +104,7 @@ export default function Experience() {
                 {SCHOOLS.reverse().map(school => (
                     <div key={school.id}>
                         <div className="flex justify-between flex-wrap">
-                            <p className="uppercase text-xl font-bold">{school.name}</p>
+                            <h2 className="uppercase text-xl font-bold">{school.name}</h2>
                             <p className="text-xl">{school.date}</p>
                         </div>
                         <p className="text-sm">{school.desc}</p>
