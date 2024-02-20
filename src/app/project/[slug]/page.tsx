@@ -48,12 +48,10 @@ export default function ProjectSlug({params}: { params: Params }) {
                 {project?.skills && (
                     <div>
                         <div className="pb-10">
-                            <h4 className="text-2xl">Principale compétences</h4>
+                            <h4 className="text-2xl">Compétences associés</h4>
                             <div className="flex flex-wrap gap-5">
                                 {project.skills.map(skill => (
-                                    <Link href={`${skill.url}`} key={skill.id}
-                                          target="_blank" rel="noreferrer"
-                                    >
+                                    <Link href={`${skill.url}`} key={skill.id} target="_blank" rel="noreferrer">
                                         {skill.name}
                                     </Link>
                                 ))}

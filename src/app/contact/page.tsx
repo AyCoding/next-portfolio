@@ -11,7 +11,6 @@ export default function Contact() {
         {id: 1, name: "aymericdelange80@gmail.com", url: "mailto:aymericdelange80@gmail.com"},
         {id: 2, name: "LinkedIn", url: "https://www.linkedin.com/in/aymeric-de-lange/"},
         {id: 3, name: "GitHub", url: "https://github.com/AyCoding"},
-        {id: 4, name: "Twitter", url: "https://twitter.com/@Ertinox08Gaming"},
     ]
     return (
         <>
