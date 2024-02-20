@@ -46,6 +46,12 @@ export default function Experience() {
             ]
         }*/
     ]
+
+    const SCHOOLS = [
+        {id:1, name: "LP Jean-Baptiste Clément, Vivier-au-Court", date: "2019/2022", desc: "Bac pro SN - systèmes numériques, option réseaux informatiques et systèmes communicants (RISC)"},
+        {id:2, name: "Lycée Gaspard Monge, Charleville-Mézières", date: "2022/2024", desc: "BTS Services informatiques aux organisations option B solutions logicielles et applications métiers (SIO SLAM)"},
+        {id:3, name: "EiSINe, Charleville-Mézières", date: "Poursuite d'étude", desc: "Licence Pro Métiers du numérique : conception, rédaction et réalisation web – parcours Intégration et Webdesign"}
+    ]
     return (
         <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">
             <h1 className="text-5xl font-black py-6">Mes expériences</h1>
@@ -95,14 +101,15 @@ export default function Experience() {
 
             <div className="pt-10 pb-10 flex flex-col gap-4">
                 <h1 className="text-5xl font-black py-6">Mes études</h1>
-                <div className="flex justify-between flex-wrap">
-                    <p className="uppercase text-xl font-bold">Lycée Gaspard Monge, Charleville-Mézières</p>
-                    <p className="text-xl">2022/2024</p>
-                </div>
-                <div className="flex justify-between flex-wrap">
-                    <p className="uppercase text-xl font-bold">LP Jean-Baptiste Clément, Vivier-au-Court</p>
-                    <p className="text-xl">2019/2022</p>
-                </div>
+                {SCHOOLS.reverse().map(school => (
+                    <div key={school.id}>
+                        <div className="flex justify-between flex-wrap">
+                            <p className="uppercase text-xl font-bold">{school.name}</p>
+                            <p className="text-xl">{school.date}</p>
+                        </div>
+                        <p className="text-sm">{school.desc}</p>
+                    </div>
+                ))}
             </div>
 
         </div>
