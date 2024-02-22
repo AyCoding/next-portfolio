@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {ExternalLink} from "lucide-react";
+import {ExternalLink, Github, Linkedin, Mail} from "lucide-react";
 
 export const metadata = {
     title: 'Aymeric DE LANGE - Contact',
@@ -8,10 +8,26 @@ export const metadata = {
 
 export default function Contact() {
     const LINKS = [
-        {id: 1, name: "aymericdelange80@gmail.com", url: "mailto:aymericdelange80@gmail.com"},
-        {id: 2, name: "LinkedIn", url: "https://www.linkedin.com/in/aymeric-de-lange/"},
-        {id: 3, name: "GitHub", url: "https://github.com/AyCoding"},
+        {id: 1, provider:"email", name: "aymericdelange80@gmail.com", url: "mailto:aymericdelange80@gmail.com"},
+        {id: 2, provider:"linkedin", name: "Aymeric DE LANGE", url: "https://www.linkedin.com/in/aymeric-de-lange/"},
+        {id: 3, provider:"github", name: "AyCoding", url: "https://github.com/AyCoding"},
     ]
+
+    const getIcon = (name: string) => {
+        switch (name) {
+            case "email":
+                return <Mail/>;
+            case "linkedin":
+                return <Linkedin/>;
+            case "github":
+                return <Github/>;
+            default:
+                return <ExternalLink/>;
+        }
+    }
+
+
+
     return (
         <>
             <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2 h-screen flex flex-col justify-center">
@@ -24,7 +40,7 @@ export default function Contact() {
                                   className="hover:translate-x-1 transition-transform text-xl font-medium flex gap-2"
                                   key={link.id}
                             >
-                                <ExternalLink/>
+                                {getIcon(link.provider)}
                                 {link.name}
                             </Link>
                         ))}
