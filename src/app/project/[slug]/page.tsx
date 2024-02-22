@@ -18,6 +18,17 @@ export async function generateMetadata({params}: { params: Params }) {
 export default function ProjectSlug({params}: { params: Params }) {
     const project = PROJECTS.find(project => project.slug === params.slug)
 
+    const getTypeUrl = (name: string) => {
+        switch (name) {
+            case "source-code":
+                return "Voir le code source";
+            case "website":
+                return "Voir le site web";
+            default:
+                return "Voir le site web";
+        }
+    }
+
     return (
         <div className="container mx-auto pb-[40px] px-5 md:px-2">
             {/*{params.slug}*/}
@@ -29,7 +40,9 @@ export default function ProjectSlug({params}: { params: Params }) {
                       className="flex gap-1 items-center font-medium text-xl hover:text-gray-700 my-2 hover:translate-x-1 transition-all"
                       target="_blank" rel="noreferrer">
                     <ExternalLink/>
-                    Visiter le site web
+                    {getTypeUrl(project.typeUrl)}
+                    {/*Voir le site web*/}
+                    {/*Voir le code source*/}
                 </Link>
             )}
 

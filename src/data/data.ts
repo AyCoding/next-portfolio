@@ -19,6 +19,7 @@ interface Project {
     name: string;
     slug: string;
     url: string;
+    typeUrl: string;
     cover: string;
     alt: string;
     date?: string;
@@ -56,6 +57,7 @@ export const PROJECTS: Project[] = [
         name: "Projet sélection (Lycée, SIO1)",
         slug: "projet-selection",
         url: "https://github.com/AyCoding/Projet-Selection",
+        typeUrl: "source-code",
         cover: "Projects/Project-Selection/eval.png",
         alt: "Image du projet selection",
         date: "Sept-Déc 2022",
@@ -77,12 +79,13 @@ export const PROJECTS: Project[] = [
         name: "Projet ScoreResto (Lycée, SIO1)",
         slug: "projet-score-resto",
         url: "",
+        typeUrl: "",
         cover: "Projects/scoreresto/scorerestoaccueil.png",
         alt: "Image du projet ScoreResto",
         date: "Janvier-Mai 2023",
         img: [
             {id: 1, img: "Projects/scoreresto/scorerestoaccueil.png"},
-            {id: 1, img: "Projects/scoreresto/scorerestodetailresto.png"}
+            {id: 2, img: "Projects/scoreresto/scorerestodetailresto.png"}
         ],
         desc: "Site d'avis culinaire : compte utilisateur, restaurant aimer, type de restaurant, recherche par restaurant, commentaires, likes...",
         languages: [
@@ -97,6 +100,7 @@ export const PROJECTS: Project[] = [
         name: "Institut de Médecine du Sport",
         slug: "institut-de-medecine-du-sport",
         url: "https://imstroyes.fr/",
+        typeUrl: "website",
         cover: "Projects/imstroyes/imstroyes.png",
         alt: "Image de du site web de l'institut" ,
         date: "Juin 2023",
@@ -123,6 +127,7 @@ export const PROJECTS: Project[] = [
         name: "Projet roulette (Lycée, SIO2)",
         slug: "projet-roulette",
         url: "",
+        typeUrl: "",
         cover: "Projects/roulette/roulette-draw.png",
         alt: "Projet roulette",
         date: "Septembre 2023",
@@ -135,7 +140,7 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "PHP"},
             {id: 2, lang: "MVC"},
-            {id: 2, lang: "POO"},
+            {id: 3, lang: "POO"},
             {id: 4, lang: "MySQL"},
         ],
         skills: [
@@ -147,6 +152,7 @@ export const PROJECTS: Project[] = [
         name: "Projet Compétences (Lycée, SIO2)",
         slug: "projet-competences",
         url: "",
+        typeUrl: "",
         cover: "Projects/PC/PC-login.png",
         alt: "Image de du site web de l'institut" ,
         date: "Oct-Déc 2023",
@@ -159,7 +165,7 @@ export const PROJECTS: Project[] = [
         desc: "En équipe pendant une projet de cours de BTS, j'ai contribué au projet 2024 de S11. Mon rôle consistait à développer une solution de gestion des compétences, en assurant une identification sécurisée, en mettant en place des fonctionnalités clés, et en optimisant l'interface utilisateur. Ce projet reflète ma capacité à travailler efficacement en équipe tout en relevant des défis techniques.",
         languages: [
             {id: 1, lang: "ReactJS"},
-            {id: 1, lang: "Supabase"},
+            {id: 2, lang: "Supabase"},
         ],
         skills: [
             {id: 1, url: "/files/btssio.org/Projet compétences.pdf", name: "Fiche des compétences"}
