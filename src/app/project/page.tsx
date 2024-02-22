@@ -39,10 +39,16 @@ export default function Project() {
                             <p className="max-w-5xl">
                                 {project.desc}
                             </p>
+                            {project?.date && (
+                                <p className="max-w-5xl font-bold">
+                                    {project.date}
+                                </p>
+                            )}
 
                             <div className="flex gap-2 pt-2 flex-wrap text-sm font-normal">
-                                {project.languages && project.languages.map(language => (
-                                    <div key={language.id} className="border border-stone-700 gap-2 rounded-full px-4 py-0.5">
+                            {project.languages && project.languages.map(language => (
+                                    <div key={language.id}
+                                         className="border border-stone-700 gap-2 rounded-full px-4 py-0.5">
                                         {language.lang}
                                     </div>
                                 ))}

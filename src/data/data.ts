@@ -21,6 +21,7 @@ interface Project {
     url: string;
     cover: string;
     alt: string;
+    date?: string;
     img: Image[];
     desc: string;
     languages: Language[];
@@ -52,11 +53,12 @@ export const PROJECTS: Project[] = [
     },*/
     {
         id: 1,
-        name: "Projet sélection (Lycée)",
+        name: "Projet sélection (Lycée, SIO1)",
         slug: "projet-selection",
         url: "https://github.com/AyCoding/Projet-Selection",
         cover: "Projects/Project-Selection/eval.png",
         alt: "Image du projet selection",
+        date: "Sept-Déc 2022",
         img: [
             {id: 1, img: "Projects/Project-Selection/login.png"},
             {id: 2, img: "Projects/Project-Selection/eval.png"},
@@ -72,11 +74,12 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 2,
-        name: "Projet ScoreResto (Lycée)",
+        name: "Projet ScoreResto (Lycée, SIO1)",
         slug: "projet-score-resto",
         url: "",
         cover: "Projects/scoreresto/scorerestoaccueil.png",
         alt: "Image du projet ScoreResto",
+        date: "Janvier-Mai 2023",
         img: [
             {id: 1, img: "Projects/scoreresto/scorerestoaccueil.png"},
             {id: 1, img: "Projects/scoreresto/scorerestodetailresto.png"}
@@ -96,6 +99,7 @@ export const PROJECTS: Project[] = [
         url: "https://imstroyes.fr/",
         cover: "Projects/imstroyes/imstroyes.png",
         alt: "Image de du site web de l'institut" ,
+        date: "Juin 2023",
         img: [
             {id: 1, img: "Projects/imstroyes/imstroyes.png"},
             {id: 2, img: "Projects/imstroyes/institut.png"},
@@ -116,11 +120,12 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 4,
-        name: "Projet roulette (Lycée)",
+        name: "Projet roulette (Lycée, SIO2)",
         slug: "projet-roulette",
         url: "",
         cover: "Projects/roulette/roulette-draw.png",
         alt: "Projet roulette",
+        date: "Septembre 2023",
         img: [
             // {id: 1, img: "Projects/roulette/roulette.png"},
             {id: 2, img: "Projects/roulette/roulette-draw.png"},
@@ -139,11 +144,12 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 5,
-        name: "Projet Compétences (Lycée)",
+        name: "Projet Compétences (Lycée, SIO2)",
         slug: "projet-competences",
         url: "",
         cover: "Projects/PC/PC-login.png",
         alt: "Image de du site web de l'institut" ,
+        date: "Oct-Déc 2023",
         img: [
             {id: 1, img: "Projects/PC/PC-login.png"},
             {id: 2, img: "Projects/PC/PC-accueil-rh.png"},
