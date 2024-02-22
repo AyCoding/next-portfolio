@@ -61,7 +61,7 @@ export default function Project() {
 
                 <h1 className="text-5xl font-black pt-6">Épreuve E4 : Attestation de stage </h1>
                 <Link href="/files/Attestation%20stage%20BTS%20SIO%201.pdf" className="text-2xl font-medium mb-2 w-full" target="_blank" rel="noreferrer">Attestation de stage première année</Link>
-                <Link href="/files/Attestation%20de%20stage%20DE%20LANGE%20Aymeric.PDF.pdf" className="text-2xl font-medium mb-2 w-full" target="_blank" rel="noreferrer">Attestation de stage deuxième année</Link>
+                <Link href="/files/Attestation%20de%20stage%20DE%20LANGE%20Aymeric.PDF.pdf" className="text-2xl font-medium mb-2 pb-10 w-full" target="_blank" rel="noreferrer">Attestation de stage deuxième année</Link>
 
                 {/*<h1 className="text-5xl font-black pt-6">Projets scolaire</h1>
                 <div className="flex flex-col gap-6 mb-6">
