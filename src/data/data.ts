@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
         ]
     },*/
     {
-        id: 2,
+        id: 1,
         name: "Projet sélection (Lycée)",
         slug: "projet-selection",
         url: "https://github.com/AyCoding/Projet-Selection",
@@ -68,6 +68,25 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "PHP"},
             {id: 2, lang: "MySQL"},
+        ]
+    },
+    {
+        id: 2,
+        name: "Projet ScoreResto (Lycée)",
+        slug: "projet-score-resto",
+        url: "",
+        cover: "Projects/scoreresto/scorerestoaccueil.png",
+        alt: "Image du projet ScoreResto",
+        img: [
+            {id: 1, img: "Projects/scoreresto/scorerestoaccueil.png"},
+            {id: 1, img: "Projects/scoreresto/scorerestodetailresto.png"}
+        ],
+        desc: "Site d'avis culinaire : compte utilisateur, restaurant aimer, type de restaurant, recherche par restaurant, commentaires, likes...",
+        languages: [
+            {id: 1, lang: "PHP"},
+            {id: 2, lang: "MVC"},
+            {id: 3, lang: "POO"},
+            {id: 4, lang: "MySQL"},
         ]
     },
     {
