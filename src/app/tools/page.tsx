@@ -15,6 +15,7 @@ export default function Tools() {
         {id: 6, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
         {id: 7, path: "/Logo/LogosPhp.svg", alt: "PHP"},
         {id: 8, path: "/Logo/LogosSvelteIcon.svg", alt: "Svelte"},
+        {id: 9, path: "/Logo/LogosLaravel.svg", alt: "Laravel"},
     ]
 
     const IDE = [
