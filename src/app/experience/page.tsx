@@ -3,7 +3,7 @@ import {ExternalLink} from "lucide-react";
 
 export const metadata = {
     title: 'Aymeric DE LANGE - Expérience',
-    description: 'Découvrir mon expérience du travail et autres',
+    description: 'Découvrir mon expérience du travail et mes études',
 }
 
 export default function Experience() {
