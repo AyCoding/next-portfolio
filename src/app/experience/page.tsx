@@ -8,6 +8,30 @@ export const metadata = {
 
 export default function Experience() {
     const EXPERIENCES = [
+        /*{
+            id: 1,
+            name: "Webmaster Sage-femme",
+            type: "Maison",
+            date: "07/2022 - 09/2022",
+            location: "A distance",
+            desc: "Création du site/design pour une sage-femme basé sur Troyes.",
+            url: "https://canaud-emilie-sage-femme.fr/",
+            languages: [
+                {id: 1, lang: "PHP"}
+            ]
+        }*/
+        {
+            id: 2,
+            name: "Institut de Médecine du Sport de Troyes",
+            type: "Stage",
+            date: "05/06/2023 - 06/07/2023",
+            location: "A distance",
+            desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
+            url: "https://imstroyes.fr/",
+            languages: [
+                {id: 1, lang: "NuxtJS"}
+            ]
+        },
         {
             id: 3,
             name: "Institut de Médecine du Sport de Troyes",
@@ -21,30 +45,6 @@ export default function Experience() {
                 {id: 2, lang: "VueJS"}
             ]
         },
-        {
-            id: 2,
-            name: "Institut de Médecine du Sport de Troyes",
-            type: "Stage",
-            date: "05/06/2023 - 06/07/2023",
-            location: "A distance",
-            desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
-            url: "https://imstroyes.fr/",
-            languages: [
-                {id: 1, lang: "NuxtJS"}
-            ]
-        },
-        /*{
-            id: 1,
-            name: "Webmaster Sage-femme",
-            type: "Maison",
-            date: "07/2022 - 09/2022",
-            location: "A distance",
-            desc: "Création du site/design pour une sage-femme basé sur Troyes.",
-            url: "https://canaud-emilie-sage-femme.fr/",
-            languages: [
-                {id: 1, lang: "PHP"}
-            ]
-        }*/
     ]
 
     const SCHOOLS = [
