@@ -101,7 +101,7 @@ export default function Experience() {
 
             <div className="pt-10 pb-10 flex flex-col gap-4">
                 <h1 className="text-5xl font-black py-6">Mes études</h1>
-                {SCHOOLS.reverse().map(school => (
+                {SCHOOLS.map(school => (
                     <div key={school.id}>
                         <div className="flex justify-between flex-wrap">
                             <h2 className="uppercase text-xl font-bold">{school.name}</h2>
