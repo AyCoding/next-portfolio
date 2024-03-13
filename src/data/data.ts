@@ -139,8 +139,9 @@ export const PROJECTS: Project[] = [
         alt: "Projet roulette",
         date: "Septembre 2023",
         img: [
-            // {id: 1, img: "Projects/roulette/roulette.png"},
-            {id: 2, img: "Projects/roulette/roulette-draw.png"},
+            {id: 1, img: "Projects/roulette/roulette-draw.png"},
+            {id: 2, img: "Projects/roulette/roulette-eleve-passer-absent.png"},
+            {id: 2, img: "Projects/roulette/roulette-note-eleve.png"},
         ],
         desc: "Projet de rentré de deuxième année de BTS SIO SLAM, pour revoir les compétences acquises l'année dernière.\n" +
             "                            Roulette est une application web qui permet, à partir d'une liste d'étudiants (une classe), de tirer au sort un étudiant. Une fois l'étudiant sélectionné nous pouvons lui affecter une note puis il sort de la liste. L'opération est renouvelée jusqu'à épuisement de la liste.\n",
