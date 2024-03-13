@@ -120,13 +120,15 @@ export const PROJECTS: Project[] = [
             {id: 6, img: "Projects/imstroyes/teamims.png"},
             {id: 7, img: "Projects/imstroyes/contact.png"},
         ],
-        desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes.",
+        desc: "Pendant mon stage d'un mois lors de ma première année en BTS SIO SLAM, j'ai eu l'opportunité de contribuer à la conception et à la refonte du site web de l'Institut de Médecine du Sport de Troyes. Gestion et rédaction du contenus destinés à améliorer le référencement SEO, Référencement naturel.",
         languages: [
             {id: 1, lang: "Nuxt.js"},
+            {id: 2, lang: "SEO"},
+            // {id: 3, lang: "SEO"},
         ],
         skills: [
-            {id: 1, url: "/files/btssio.org/Stage SIO1 - Institut de Médecine du Sport de Troyes.pdf", name: "Stage SIO1"},
-            {id: 1, url: "/files/btssio.org/Stage SIO2 - Institut de Médecine du Sport de Troyes.pdf", name: "Stage SIO2"}
+            {id: 1, url: "/files/btssio.org/Stage SIO1 - Institut de Médecine du Sport de Troyes.pdf", name: "Fiche des compétences"},
+            // {id: 1, url: "/files/btssio.org/Stage SIO2 - Institut de Médecine du Sport de Troyes.pdf", name: "Stage SIO2"}
         ]
     },
     {
