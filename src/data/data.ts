@@ -85,7 +85,14 @@ export const PROJECTS: Project[] = [
         date: "Janvier-Mai 2023",
         img: [
             {id: 1, img: "Projects/scoreresto/scorerestoaccueil.png"},
-            {id: 2, img: "Projects/scoreresto/scorerestodetailresto.png"}
+            {id: 2, img: "Projects/scoreresto/scorerestodetailresto.png"},
+            {id: 3, img: "Projects/scoreresto/scorerestodetailrestocritique.png"},
+            {id: 4, img: "Projects/scoreresto/scorerestoconnexion.png"},
+            {id: 5, img: "Projects/scoreresto/scorerestomodifprofil.png"},
+            {id: 6, img: "Projects/scoreresto/scorerestomodifprofil2.png"},
+            {id: 7, img: "Projects/scoreresto/scorerestorecherchenom.png"},
+            {id: 8, img: "Projects/scoreresto/scorerestorechercheadresse.png"},
+            {id: 9, img: "Projects/scoreresto/scorerestorecherchetypecuisine.png"},
         ],
         desc: "Site d'avis culinaire : compte utilisateur, restaurant aimer, type de restaurant, recherche par restaurant, commentaires, likes...",
         languages: [
