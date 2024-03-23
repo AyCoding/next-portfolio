@@ -8,9 +8,14 @@ interface Language {
     lang: string;
 }
 
-interface skills {
+interface files {
     id: number;
     url: string;
+    name: string;
+}
+
+interface skills {
+    id: number;
     name: string;
 }
 
@@ -26,6 +31,7 @@ interface Project {
     img: Image[];
     desc: string;
     languages: Language[];
+    files?: files[];
     skills?: skills[];
 
 }
@@ -72,6 +78,9 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "PHP"},
             {id: 2, lang: "MySQL"},
+        ],
+        skills: [
+            {id: 1, name: "Deployer un service : Linux"},
         ]
     },
     {
@@ -100,6 +109,10 @@ export const PROJECTS: Project[] = [
             {id: 2, lang: "MVC"},
             {id: 3, lang: "POO"},
             {id: 4, lang: "MySQL"},
+        ],
+        skills: [
+            {id: 1, name: "Deployer un service : Linux"},
+            {id: 2, name: "Exploiter des référentiels, normes et standards adoptés par le prestataire informatique."},
         ]
     },
     {
@@ -124,11 +137,14 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "Nuxt.js"},
             {id: 2, lang: "SEO"},
-            // {id: 3, lang: "SEO"},
         ],
         skills: [
+            {id: 1, name: "Deployer un service : Linux"},
+            {id: 2, name: "Bloc : Développer la présence en ligne de l’organisation"},
+            {id: 3, name: "Collecter, suivre et orienter des demandes"}
+        ],
+        files: [
             {id: 1, url: "/files/btssio.org/Stage SIO1 - Institut de Médecine du Sport de Troyes.pdf", name: "Fiche des compétences"},
-            // {id: 1, url: "/files/btssio.org/Stage SIO2 - Institut de Médecine du Sport de Troyes.pdf", name: "Stage SIO2"}
         ]
     },
     {
@@ -154,6 +170,10 @@ export const PROJECTS: Project[] = [
             {id: 4, lang: "MySQL"},
         ],
         skills: [
+            {id: 1, name: "Deployer un service : Linux"},
+            {id: 2, name: "Exploiter des référentiels, normes et standards adoptés par le prestataire informatique."},
+        ],
+        files: [
             {id: 1, url: "/files/btssio.org/Roulette PHP.pdf", name: "Fiche des compétences"}
         ]
     },
@@ -178,6 +198,10 @@ export const PROJECTS: Project[] = [
             {id: 2, lang: "Supabase"},
         ],
         skills: [
+            {id: 1, name: "Deployer un service : Linux"},
+            {id: 2, name: "Bloc: Travailler en mode projet"},
+        ],
+        files: [
             {id: 1, url: "/files/btssio.org/Projet compétences.pdf", name: "Fiche des compétences"}
         ]
     }
