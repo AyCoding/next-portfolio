@@ -107,7 +107,7 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "PHP"},
             {id: 2, lang: "MVC"},
-            {id: 3, lang: "POO"},
+            // {id: 3, lang: "POO"},
             {id: 4, lang: "MySQL"},
         ],
         skills: [

@@ -54,6 +54,16 @@ export default function Project() {
                                 ))}
                             </div>
 
+                            {project?.skills && (
+                                <div className="py-10 flex flex-wrap gap-1">
+                                    {project.skills.map(skill => (
+                                        <p key={skill.id} className="border w-fit px-4 py-2 rounded font-medium">
+                                            {skill.name}
+                                        </p>
+                                    ))}
+                                </div>
+                            )}
+
                             <Link href={`/project/${project.slug}`}
                                   className="inline-block w-fit py-2 px-4 mt-5 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-500 hover:transition">
                                 Voir le projet
