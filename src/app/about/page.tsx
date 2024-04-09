@@ -15,7 +15,7 @@ export default function About() {
 
             <section className="w-full h-52 py-5 md:rounded-3xl">
                 <p className="text-xl text-gray-700">
-                    Bonjour, je suis Aymeric DE LANGE, 20 ans, développeur front-end passionné par la programmation web
+                    Bonjour, je suis Aymeric DE LANGE, 21 ans, développeur front-end passionné par la programmation web
                     depuis 2018. Actuellement en <span className="font-medium">BTS Services informatiques aux organisations option B solutions
                     logicielles et applications métiers (SIO SLAM)</span>. Je vous invite à découvrir mes projets.
                     N&apos;hésitez pas à me contacter si vous avez des questions ou si vous êtes intéressé par une
