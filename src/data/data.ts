@@ -43,11 +43,12 @@ export type {
 }
 
 export const PROJECTS: Project[] = [
-    /*{
+    {
         id: 1,
         name: "Webmaster Sage-femme",
         slug: "emilie-canaud-sage-femme",
         url: "https://canaud-emilie-sage-femme.fr",
+        typeUrl: "website",
         cover: "canaud-emilie-sage-femme.fr_.png",
         alt: "Image de du site web de Emilie Canaud",
         img: [
@@ -57,9 +58,9 @@ export const PROJECTS: Project[] = [
         languages: [
             {id: 1, lang: "PHP"},
         ]
-    },*/
+    },
     {
-        id: 1,
+        id: 2,
         name: "Projet sélection (Lycée, SIO1)",
         slug: "projet-selection",
         url: "https://github.com/AyCoding/Projet-Selection",
@@ -84,7 +85,7 @@ export const PROJECTS: Project[] = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         name: "Projet ScoreResto (Lycée, SIO1)",
         slug: "projet-score-resto",
         url: "",
@@ -116,7 +117,7 @@ export const PROJECTS: Project[] = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         name: "Institut de Médecine du Sport",
         slug: "institut-de-medecine-du-sport",
         url: "https://imstroyes.fr/",
@@ -148,7 +149,7 @@ export const PROJECTS: Project[] = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         name: "Projet roulette (Lycée, SIO2)",
         slug: "projet-roulette",
         url: "",
@@ -178,7 +179,7 @@ export const PROJECTS: Project[] = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: "Projet Compétences (Lycée, SIO2)",
         slug: "projet-competences",
         url: "",
