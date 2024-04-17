@@ -4,7 +4,7 @@ import {ExternalLink} from "lucide-react";
 
 export const metadata = {
     title: 'Aymeric DE LANGE - A propos de moi',
-    description: 'Bonjour, je suis Aymeric, à la recherche d’un contrat d’alternance pour la licence professionnelle Conception, Rédaction et Réalisation Web. Passionné par la programmation web depuis 2018, j\'ai progressivement développé une solide expertise en conception, rédaction et réalisation web. Je vous invite à découvrir mes projets. N\'hésitez pas à me contacter si vous avez des questions ou si vous êtes intéressé par une collaboration.',
+    description: 'Bonjour, je suis Aymeric, passionné par la programmation web depuis 2018, je suis actuellement  à la recherche d’un contrat d’alternance pour la licence professionnelle Conception, Rédaction et Réalisation Web pour Septembre 2024. Je vous invite à découvrir mes projets. N\'hésitez pas à me contacter si vous avez des questions ou si vous êtes intéressé par une collaboration.',
 }
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
 
             <section className="w-full h-52 py-5 md:rounded-3xl">
                 <p className="text-xl text-gray-700">
-                    Bonjour, je suis Aymeric, à la recherche d’un contrat d’alternance pour la <span className="font-medium">licence professionnelle Conception, Rédaction et Réalisation Web</span>. Passionné par la programmation web depuis 2018, j&apos;ai progressivement développé une solide expertise en conception, rédaction et réalisation web. Je vous invite à découvrir mes projets. N&apos;hésitez pas à me contacter si vous avez des questions ou si vous êtes intéressé par une collaboration.
+                    Bonjour, je suis Aymeric, passionné par la programmation web depuis 2018, je suis actuellement à la recherche d’un contrat d’alternance pour la <span className="font-medium">licence professionnelle Conception, Rédaction et Réalisation Web</span> pour Septembre 2024. Je vous invite à découvrir mes projets. N&apos;hésitez pas à me contacter si vous avez des questions ou si vous êtes intéressé par une collaboration.
                 </p>
 
                 <div className="flex flex-col mt-5">
