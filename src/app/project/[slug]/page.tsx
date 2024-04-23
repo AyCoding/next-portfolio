@@ -73,7 +73,7 @@ export default function ProjectSlug({params}: { params: Params }) {
                     </div>
                 )}
 
-                {project?.skills && (
+                {/*{project?.skills && (
                     <div className="pb-10 flex flex-wrap gap-1">
                         {project.skills.map(skill => (
                             <p key={skill.id} className="border w-fit px-4 py-2 rounded font-medium">
@@ -81,7 +81,7 @@ export default function ProjectSlug({params}: { params: Params }) {
                             </p>
                         ))}
                     </div>
-                )}
+                )}*/}
 
                 {project?.img.map(images => (
                     <Image src={`/${images.img}`} alt="" key={images.id} width={1440} height={900}
