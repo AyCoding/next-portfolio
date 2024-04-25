@@ -56,7 +56,7 @@ export default function Experience() {
         <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">
             <h1 className="text-5xl font-black py-6">Mes expériences</h1>
 
-            {EXPERIENCES.map(experience => (
+            {EXPERIENCES.reverse().map(experience => (
                 <div className="border-t border-slate-700 my-10" key={experience.id}>
                     <div className="flex flex-col md:flex-row my-5">
                         <div className="md:flex-1">
