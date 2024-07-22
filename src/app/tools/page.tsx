@@ -10,12 +10,13 @@ export default function Tools() {
         {id: 1, path: "/Logo/LogosSass.svg", alt: "Sass"},
         {id: 2, path: "/Logo/LogosJavascript.svg", alt: "JavaScript"},
         {id: 3, path: "/Logo/LogosVue.svg", alt: "VueJS"},
-        {id: 4, path: "/Logo/LogosReact.svg", alt: "ReactJS"},
-        {id: 5, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
-        {id: 6, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
-        {id: 7, path: "/Logo/LogosPhp.svg", alt: "PHP"},
-        {id: 8, path: "/Logo/LogosSvelteIcon.svg", alt: "Svelte"},
-        {id: 9, path: "/Logo/LogosLaravel.svg", alt: "Laravel"},
+        {id: 4, path: "/Logo/LogosNuxtIcon.svg", alt: "NuxtJS"},
+        {id: 5, path: "/Logo/LogosReact.svg", alt: "ReactJS"},
+        {id: 6, path: "/Logo/LogosNextjsIcon.svg", alt: "NextJS"},
+        {id: 7, path: "/Logo/LogosTailwindcssIcon.svg", alt: "TailwindCSS"},
+        {id: 8, path: "/Logo/LogosPhp.svg", alt: "PHP"},
+        {id: 9, path: "/Logo/LogosSvelteIcon.svg", alt: "Svelte"},
+        {id: 10, path: "/Logo/LogosLaravel.svg", alt: "Laravel"},
     ]
 
     const IDE = [

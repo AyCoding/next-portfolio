@@ -50,7 +50,7 @@ export default function Experience() {
     const SCHOOLS = [
         {id:1, name: "LP Jean-Baptiste Clément, Vivier-au-Court", date: "2019/2022", desc: "Bac pro SN - systèmes numériques, option réseaux informatiques et systèmes communicants (RISC)"},
         {id:2, name: "Lycée Gaspard Monge, Charleville-Mézières", date: "2022/2024", desc: "BTS Services informatiques aux organisations option B solutions logicielles et applications métiers (SIO SLAM)"},
-        {id:3, name: "EiSINe, Charleville-Mézières", date: "Poursuite d'étude", desc: "Licence Pro Métiers du numérique : conception, rédaction et réalisation web – parcours Intégration et Webdesign"}
+        {id:3, name: "EiSINe, Charleville-Mézières", date: "2024/2025", desc: "Licence Pro Métiers du numérique : conception, rédaction et réalisation web – parcours Intégration et Webdesign"}
     ]
     return (
         <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">

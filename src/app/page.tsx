@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="text-5xl font-black uppercase">
           Bonjour, je suis <span className="perso">Aymeric DE LANGE</span>,
         </h1>
-        <p className="font-medium text-xl mb-5">Je suis à la recherche d&apos;une alternance pour septembre 2024.</p>
+        <p className="font-medium text-xl mb-5">Je suis actuellement en licence professionnelle Conception, Rédaction et Réalisation Web de 2024/2025</p>
         <Link href={"/about"} className="flex gap-1 font-medium hover:translate-x-1 transition-transform">
           <ArrowRight/>
             A propos de moi
