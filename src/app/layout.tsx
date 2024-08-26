@@ -1,6 +1,7 @@
 import './globals.css'
 import Aside from "@/components/Aside";
 import { Analytics } from '@vercel/analytics/react';
+import { GoogleAnalytics } from '@next/third-parties/google'
 import React, {ReactNode} from "react";
 
 interface RootLayoutProps {
@@ -14,6 +15,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         {children}
         <Aside />
         <Analytics />
+        <GoogleAnalytics gaId="G-6HE0B2SXH4" />
         </body>
         </html>
     );
