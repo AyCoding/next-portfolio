@@ -45,12 +45,40 @@ export default function Experience() {
                 {id: 2, lang: "VueJS"}
             ]
         },
+        {
+            id: 4,
+            name: "DOSSOT SOREC Groupe DSP Technologies",
+            type: "Alternance",
+            date: "09/2024 - Actuellement",
+            location: "Sur place",
+            desc: "Gestion des produits sur PrestaShop. Changement de l'apparence du thème par défaut en SCSS. (https://moteurselectriques.fr/)",
+            url: "https://dsptech.fr/",
+            languages: [
+                {id: 1, lang: "PrestaShop"},
+                {id: 2, lang: "SCSS"}
+            ]
+        }
     ]
 
     const SCHOOLS = [
-        {id:1, name: "LP Jean-Baptiste Clément, Vivier-au-Court", date: "2019/2022", desc: "Bac pro SN - systèmes numériques, option réseaux informatiques et systèmes communicants (RISC)"},
-        {id:2, name: "Lycée Gaspard Monge, Charleville-Mézières", date: "2022/2024", desc: "BTS Services informatiques aux organisations option B solutions logicielles et applications métiers (SIO SLAM)"},
-        {id:3, name: "EiSINe, Charleville-Mézières", date: "2024/2025", desc: "Licence Pro Métiers du numérique : conception, rédaction et réalisation web – parcours Intégration et Webdesign"}
+        {
+            id: 1,
+            name: "LP Jean-Baptiste Clément, Vivier-au-Court",
+            date: "2019/2022",
+            desc: "Bac pro SN - systèmes numériques, option réseaux informatiques et systèmes communicants (RISC)"
+        },
+        {
+            id: 2,
+            name: "Lycée Gaspard Monge, Charleville-Mézières",
+            date: "2022/2024",
+            desc: "BTS Services informatiques aux organisations option B solutions logicielles et applications métiers (SIO SLAM)"
+        },
+        {
+            id: 3,
+            name: "EiSINe, Charleville-Mézières",
+            date: "2024/2025",
+            desc: "Licence Pro Métiers du numérique : conception, rédaction et réalisation web – parcours Intégration et Webdesign"
+        }
     ]
     return (
         <div className="container max-w-[1200px] mx-auto pb-[40px] px-5 md:px-2">
